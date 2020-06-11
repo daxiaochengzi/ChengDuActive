@@ -1,0 +1,360 @@
+092054.PC-PC!?proc.8484.8636.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+092054.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+092054.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092054.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092115.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092115.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092115.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092138.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092138.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092138.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092139.PC-PC!?proc.8860.8592.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+092139.PC-PC!?proc.8860.8592.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092139.PC-PC!?proc.8860.8592.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092139.PC-PC!?proc.8860.8592.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092200.PC-PC!?proc.8860.8592.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092200.PC-PC!?proc.8860.8592.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092200.PC-PC!?proc.8860.8592.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092201.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092201.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092201.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092223.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092223.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092223.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092244.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092244.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092244.PC-PC!?proc.8484.8636.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092620.PC-PC!?proc.7568.8548.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+092620.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+092620.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092620.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092641.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092641.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092641.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092704.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092704.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092704.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092704.PC-PC!?proc.8820.6880.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+092704.PC-PC!?proc.8820.6880.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092704.PC-PC!?proc.8820.6880.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092704.PC-PC!?proc.8820.6880.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092725.PC-PC!?proc.8820.6880.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092725.PC-PC!?proc.8820.6880.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092725.PC-PC!?proc.8820.6880.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092726.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092726.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092726.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092748.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092748.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092748.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+092809.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+092809.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+092809.PC-PC!?proc.7568.8548.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+093124.PC-PC!?proc.1444.11656.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+093124.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+093124.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+093124.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+093145.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+093145.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+093145.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+093207.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+093207.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+093207.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+093207.PC-PC!?proc.9856.9860.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+093207.PC-PC!?proc.9856.9860.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+093207.PC-PC!?proc.9856.9860.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+093207.PC-PC!?proc.9856.9860.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+093228.PC-PC!?proc.9856.9860.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+093228.PC-PC!?proc.9856.9860.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+093228.PC-PC!?proc.9856.9860.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+093231.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+093231.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+093231.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+093252.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+093252.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+093252.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+093314.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+093314.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+093314.PC-PC!?proc.1444.11656.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+094152.PC-PC!?proc.9844.404.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+094152.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+094152.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+094152.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+094213.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+094213.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+094213.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+094236.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+094236.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+094236.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+094236.PC-PC!?proc.4416.10464.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+094236.PC-PC!?proc.4416.10464.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+094236.PC-PC!?proc.4416.10464.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+094236.PC-PC!?proc.4416.10464.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+094257.PC-PC!?proc.4416.10464.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+094257.PC-PC!?proc.4416.10464.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+094257.PC-PC!?proc.4416.10464.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+094300.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+094300.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+094300.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+094322.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+094322.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+094322.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+094343.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+094343.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+094343.PC-PC!?proc.9844.404.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+095216.PC-PC!?proc.8524.10852.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+095216.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+095216.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+095216.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+095237.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+095237.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+095237.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+095258.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+095258.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+095258.PC-PC!?proc.8524.10852.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+095259.PC-PC!?proc.9636.8436.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+095259.PC-PC!?proc.9636.8436.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+095259.PC-PC!?proc.9636.8436.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+095259.PC-PC!?proc.9636.8436.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+095320.PC-PC!?proc.9636.8436.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+095320.PC-PC!?proc.9636.8436.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+095320.PC-PC!?proc.9636.8436.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+100611.PC-PC!?proc.9008.3292.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+100611.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+100611.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+100611.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+100632.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+100632.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+100632.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+100653.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+100653.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+100653.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+100653.PC-PC!?proc.8768.10612.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+100653.PC-PC!?proc.8768.10612.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+100653.PC-PC!?proc.8768.10612.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+100653.PC-PC!?proc.8768.10612.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+100714.PC-PC!?proc.8768.10612.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+100714.PC-PC!?proc.8768.10612.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+100714.PC-PC!?proc.8768.10612.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+100716.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+100716.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+100716.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+100737.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+100737.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+100737.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+100759.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+100759.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+100759.PC-PC!?proc.9008.3292.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+102222.PC-PC!?proc.8528.11900.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+102222.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+102222.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+102222.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+102243.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+102243.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+102243.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+102304.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+102304.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+102304.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+102304.PC-PC!?proc.8676.11168.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+102304.PC-PC!?proc.8676.11168.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+102304.PC-PC!?proc.8676.11168.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+102304.PC-PC!?proc.8676.11168.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+102326.PC-PC!?proc.8676.11168.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+102326.PC-PC!?proc.8676.11168.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+102326.PC-PC!?proc.8676.11168.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+102332.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+102332.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+102332.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+102354.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+102354.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+102354.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+102415.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+102415.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+102415.PC-PC!?proc.8528.11900.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+103907.PC-PC!?proc.6228.5368.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+103907.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+103907.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+103907.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+103912.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+103912.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+103912.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+103913.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+103913.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+103913.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+103913.PC-PC!?proc.7704.3688.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+103913.PC-PC!?proc.7704.3688.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+103913.PC-PC!?proc.7704.3688.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+103913.PC-PC!?proc.7704.3688.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+103913.PC-PC!?proc.7704.3688.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+103913.PC-PC!?proc.7704.3688.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+103913.PC-PC!?proc.7704.3688.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+103945.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+103945.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+103945.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104006.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104006.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104006.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104027.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104027.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104027.PC-PC!?proc.6228.5368.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104027.PC-PC!?proc.408.5312.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+104027.PC-PC!?proc.408.5312.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104027.PC-PC!?proc.408.5312.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104027.PC-PC!?proc.408.5312.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104048.PC-PC!?proc.408.5312.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104048.PC-PC!?proc.408.5312.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104048.PC-PC!?proc.408.5312.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104109.PC-PC!?proc.7752.3236.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+104109.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+104109.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104109.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104130.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104130.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104130.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104152.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104152.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104152.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104152.PC-PC!?proc.2772.3436.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+104152.PC-PC!?proc.2772.3436.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104152.PC-PC!?proc.2772.3436.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104152.PC-PC!?proc.2772.3436.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104213.PC-PC!?proc.2772.3436.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104213.PC-PC!?proc.2772.3436.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104213.PC-PC!?proc.2772.3436.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104216.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104216.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104216.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104237.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104237.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104237.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+104302.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+104302.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+104302.PC-PC!?proc.7752.3236.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+105656.PC-PC!?proc.424.5020.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+105656.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+105656.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+105656.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+105701.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+105701.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+105701.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+105701.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+105701.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+105701.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+105708.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+105708.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+105708.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+105708.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+105708.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+105708.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+105709.PC-PC!?proc.424.5020.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+110739.PC-PC!?proc.8964.4184.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+110739.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+110739.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+110739.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+110800.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+110800.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+110800.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+110821.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+110821.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+110821.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+110821.PC-PC!?proc.8716.6768.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+110821.PC-PC!?proc.8716.6768.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+110821.PC-PC!?proc.8716.6768.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+110821.PC-PC!?proc.8716.6768.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+110842.PC-PC!?proc.8716.6768.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+110842.PC-PC!?proc.8716.6768.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+110842.PC-PC!?proc.8716.6768.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+110846.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+110846.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+110846.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+110907.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+110907.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+110907.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+110929.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+110929.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+110929.PC-PC!?proc.8964.4184.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111144.PC-PC!?proc.5816.8732.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+111144.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+111144.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111144.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111205.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+111205.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111205.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111226.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+111226.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111226.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111227.PC-PC!?proc.8408.1296.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+111227.PC-PC!?proc.8408.1296.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+111227.PC-PC!?proc.8408.1296.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111227.PC-PC!?proc.8408.1296.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111248.PC-PC!?proc.8408.1296.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+111248.PC-PC!?proc.8408.1296.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111248.PC-PC!?proc.8408.1296.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111251.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+111251.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111251.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111312.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+111312.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111312.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111333.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+111333.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111333.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+111438.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1055: ERROR: Unable to establish WSL connection
+111438.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+111438.PC-PC!?proc.5816.8732.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+175318.PC-PC!?proc.7192.7196.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+175318.PC-PC!?proc.7192.7196.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+175318.PC-PC!?proc.7192.7196.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+175318.PC-PC!?proc.7192.7196.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+175734.PC-PC!?proc.5408.6752.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+175734.PC-PC!?proc.5408.6752.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+175734.PC-PC!?proc.5408.6752.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+175734.PC-PC!?proc.5408.6752.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+175950.PC-PC!?proc.7024.6036.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+175950.PC-PC!?proc.7024.6036.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+175950.PC-PC!?proc.7024.6036.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+175950.PC-PC!?proc.7024.6036.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+180623.PC-PC!?proc.5268.5272.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+180623.PC-PC!?proc.5268.5272.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+180623.PC-PC!?proc.5268.5272.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+180623.PC-PC!?proc.5268.5272.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+181426.PC-PC!?proc.6644.6648.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+181426.PC-PC!?proc.6644.6648.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+181426.PC-PC!?proc.6644.6648.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+181426.PC-PC!?proc.6644.6648.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+181613.PC-PC!?proc.6288.6296.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+181613.PC-PC!?proc.6288.6296.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+181613.PC-PC!?proc.6288.6296.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+181613.PC-PC!?proc.6288.6296.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+181715.PC-PC!?proc.2808.1256.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+181715.PC-PC!?proc.2808.1256.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+181715.PC-PC!?proc.2808.1256.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+181715.PC-PC!?proc.2808.1256.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+182024.PC-PC!?proc.6792.6320.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+182024.PC-PC!?proc.6792.6320.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+182024.PC-PC!?proc.6792.6320.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+182024.PC-PC!?proc.6792.6320.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+183803.PC-PC!?proc.5428.6548.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+183803.PC-PC!?proc.5428.6548.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+183803.PC-PC!?proc.5428.6548.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+183803.PC-PC!?proc.5428.6548.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+184040.PC-PC!?proc.1256.5444.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+184040.PC-PC!?proc.1256.5444.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+184040.PC-PC!?proc.1256.5444.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+184040.PC-PC!?proc.1256.5444.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+184138.PC-PC!?proc.2612.6844.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+184138.PC-PC!?proc.2612.6844.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+184138.PC-PC!?proc.2612.6844.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+184138.PC-PC!?proc.2612.6844.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level
+184315.PC-PC!?proc.6360.5828.0: 05-27-2020: Tuxedo Version 9.0, 32-bit
+184315.PC-PC!?proc.6360.5828.0: LIBWSC_CAT:1052: ERROR: Environment variable WSNADDR not set
+184315.PC-PC!?proc.6360.5828.0: LIBWSC_CAT:1027: ERROR: Unable to connect to WSH
+184315.PC-PC!?proc.6360.5828.0: LIBWSC_CAT:1020: ERROR: Unable to obtain authentication level

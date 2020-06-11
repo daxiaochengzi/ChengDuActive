@@ -1,0 +1,6 @@
+C:\code\Active\Active\Active\bin\Debug\Active.dll
+C:\code\Active\Active\Active\bin\Debug\Active.pdb
+C:\code\Active\Active\Active\obj\Debug\Active.csprojAssemblyReference.cache
+C:\code\Active\Active\Active\obj\Debug\Active.csproj.CoreCompileInputs.cache
+C:\code\Active\Active\Active\obj\Debug\Active.dll
+C:\code\Active\Active\Active\obj\Debug\Active.pdb
