@@ -70,7 +70,7 @@ namespace BenDingActive
             //var resultData = sendService.SendData(iniJsonParam, operatorId);
 
             ////反射获取 命名空间 + 类名
-            string className = "BenDingActive.Service.YinHaiOutpatientDepartmentService";
+            string className = "BenDingActive.Service.YinHaiService";
             var resultData = YiHaiMedicalInsuranceExecute(controlParam, inputParam, methodName, operatorId, className);
             return resultData;
         }
