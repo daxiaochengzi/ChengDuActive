@@ -261,7 +261,7 @@ namespace BenDingActive.Service
             return resultData;
         }
         /// <summary>
-        ///查询医院信息
+        ///查询icd10信息
         /// </summary>
         /// <param name="controlParam"></param>
         /// <param name="inputParam"></param>
@@ -454,9 +454,35 @@ namespace BenDingActive.Service
                 else
                 {
 
-                    YinHaiCOM.Getuncertaintytrade(iniParam);
+                    //YinHaiCOM.Getuncertaintytrade(iniParam);
+                    //测试数据
+                    iniParam.along_appcode = 1;
+                    var outputData = new QueryUncertainTransactionOutputXmlDto();
+                    var listRow = new List<QueryUncertainTransactionOutputRowXmlDto>();
+                    listRow.Add(new QueryUncertainTransactionOutputRowXmlDto()
+                    { SerialNumber = "12C0000SJ37F6E2F8",
+                        Key = new List<QueryUncertainTransactionOutputRowKeyXmlDto>()
+                        {
+                            new QueryUncertainTransactionOutputRowKeyXmlDto()
+                            { SettlementNo = "0003S293400370",
+                              VisitNo = "00002005289161163",
+                                ReimbursementType = "门诊结算"
+                            },new QueryUncertainTransactionOutputRowKeyXmlDto()
+                            {
+                                SettlementNo = "0003S293400370",
+                                VisitNo = "00002005289161163",
+                                ReimbursementType = "门诊结算"
+                            }
+                        }
+                    });
+                    outputData.Row = listRow;
+                    iniParam.TransactionOutputXml = XmlHelp.YinHaiXmlSerialize(outputData);
+                    //----
+
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
                 }
+               
+
                 resultData.Data = JsonConvert.SerializeObject(iniParam);
 
                 Logs.LogWriteData(new LogWriteDataParam
@@ -697,6 +723,8 @@ namespace BenDingActive.Service
                     iniParam = GetDealModelTest(param);
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
                 }
+
+                resultData.OtherInfo = iniParam.SerialNumber;
                 resultData.Data = JsonConvert.SerializeObject(iniParam);
 
                 Logs.LogWriteData(new LogWriteDataParam

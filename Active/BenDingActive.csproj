@@ -88,6 +88,7 @@
     <Compile Include="Model\Dto\YiHai\initBaseDto.cs" />
     <Compile Include="Model\Dto\YiHai\MedicalInsuranceSignInXmlDto.cs" />
     <Compile Include="Model\Dto\YiHai\OutputXmlBaseDto.cs" />
+    <Compile Include="Model\Dto\YiHai\QueryUncertainTransactionOutputXmlDto.cs" />
     <Compile Include="Model\Dto\YiHai\UserInfoControlXmlDto.cs" />
     <Compile Include="Model\Dto\YiHai\UserInfoDataXmlDto.cs" />
     <Compile Include="Model\Dto\YiHai\YiHaiMethodsDto.cs" />
