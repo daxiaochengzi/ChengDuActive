@@ -15,9 +15,9 @@ using Newtonsoft.Json;
 namespace BenDingActive.Service
 {
 
-    public class YinHaiOutpatientDepartmentService
+    public class YinHaiService
     {
-
+        #region 公共接口
         /// <summary>
         /// 获取个人基础资料
         /// </summary>
@@ -302,117 +302,7 @@ namespace BenDingActive.Service
             var resultData = YiHaiMedicalInsuranceOperation(iniParam);
             return resultData;
         }
-        /// <summary>
-        /// 门诊挂号
-        /// </summary>
-        /// <param name="controlParam"></param>
-        /// <param name="inputParam"></param>
-        /// <param name="operatorId"></param>
-        /// <returns></returns>
-        public ApiJsonResultData OutpatientRegister(string controlParam, string inputParam, string operatorId)
-        {
 
-
-
-            var iniParam = new YiHaiMedicalInsuranceOperationParam
-            {
-
-                TransactionNumber = "110",
-                ControlParam = controlParam,
-                OperatorId = operatorId,
-                InputParam = inputParam,
-            };
-
-
-
-
-            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
-            return resultData;
-        }
-        /// <summary>
-        /// 门诊费用明细上传
-        /// </summary>
-        /// <param name="controlParam"></param>
-        /// <param name="inputParam"></param>
-        /// <param name="operatorId"></param>
-        /// <returns></returns>
-        public ApiJsonResultData OutpatientDetailUpload(string controlParam, string inputParam, string operatorId)
-        {
-
-            var iniParam = new YiHaiMedicalInsuranceOperationParam
-            {
-
-                TransactionNumber = "111",
-                ControlParam = controlParam,
-                OperatorId = operatorId,
-                InputParam = inputParam,
-            };
-            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
-            return resultData;
-        }
-        /// <summary>
-        /// 门诊结算
-        /// </summary>
-        /// <param name="controlParam"></param>
-        /// <param name="inputParam"></param>
-        /// <param name="operatorId"></param>
-        /// <returns></returns>
-        public ApiJsonResultData OutpatientSettlement(string controlParam, string inputParam, string operatorId)
-        {
-
-            var iniParam = new YiHaiMedicalInsuranceOperationParam
-            {
-
-                TransactionNumber = "11",
-                ControlParam = controlParam,
-                OperatorId = operatorId,
-                InputParam = inputParam,
-            };
-            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
-            return resultData;
-        }
-        /// <summary>
-        /// 门诊结算打印
-        /// </summary>
-        /// <param name="controlParam"></param>
-        /// <param name="inputParam"></param>
-        /// <param name="operatorId"></param>
-        /// <returns></returns>
-        public ApiJsonResultData OutpatientSettlementPrint(string controlParam, string inputParam, string operatorId)
-        {
-
-            var iniParam = new YiHaiMedicalInsuranceOperationParam
-            {
-
-                TransactionNumber = "55",
-                ControlParam = controlParam,
-                OperatorId = operatorId,
-                InputParam = inputParam,
-            };
-            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
-            return resultData;
-        }
-        /// <summary>
-        /// 门诊取消结算
-        /// </summary>
-        /// <param name="controlParam"></param>
-        /// <param name="inputParam"></param>
-        /// <param name="operatorId"></param>
-        /// <returns></returns>
-        public ApiJsonResultData CancelOutpatientSettlement(string controlParam, string inputParam, string operatorId)
-        {
-
-            var iniParam = new YiHaiMedicalInsuranceOperationParam
-            {
-
-                TransactionNumber = "12",
-                ControlParam = controlParam,
-                OperatorId = operatorId,
-                InputParam = inputParam,
-            };
-            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
-            return resultData;
-        }
         /// <summary>
         /// 查询不确定交易
         /// </summary>
@@ -460,7 +350,8 @@ namespace BenDingActive.Service
                     var outputData = new QueryUncertainTransactionOutputXmlDto();
                     var listRow = new List<QueryUncertainTransactionOutputRowXmlDto>();
                     listRow.Add(new QueryUncertainTransactionOutputRowXmlDto()
-                    { SerialNumber = "12C0000SJ37F6E2F8",
+                    {
+                        SerialNumber = "12C0000SJ37F6E2F8",
                         Key = new List<QueryUncertainTransactionOutputRowKeyXmlDto>()
                         {
                             new QueryUncertainTransactionOutputRowKeyXmlDto()
@@ -481,7 +372,7 @@ namespace BenDingActive.Service
 
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
                 }
-               
+
 
                 resultData.Data = JsonConvert.SerializeObject(iniParam);
 
@@ -686,6 +577,121 @@ namespace BenDingActive.Service
             var resultData = YiHaiMedicalInsuranceOperation(iniParam);
             return resultData;
         }
+        #endregion
+        #region 门诊 
+        /// <summary>
+        /// 门诊挂号
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData OutpatientRegister(string controlParam, string inputParam, string operatorId)
+        {
+
+
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "110",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+
+
+
+
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+        }
+        /// <summary>
+        /// 门诊费用明细上传
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData OutpatientDetailUpload(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "111",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+        }
+        /// <summary>
+        /// 门诊结算
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData OutpatientSettlement(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "11",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+        }
+        /// <summary>
+        /// 门诊结算打印
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData OutpatientSettlementPrint(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "55",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+        }
+        /// <summary>
+        /// 门诊取消结算
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData CancelOutpatientSettlement(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "12",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+        }
+
+        #endregion
         /// <summary>
         /// 银海医保执行
         /// </summary>

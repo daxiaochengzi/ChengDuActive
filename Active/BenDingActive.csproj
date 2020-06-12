@@ -116,7 +116,7 @@
     <Compile Include="Service\OutpatientDepartmentService.cs" />
     <Compile Include="Service\ResidentMedicalInsuranceTest.cs" />
     <Compile Include="Service\WorKerService.cs" />
-    <Compile Include="Service\YinHaiOutpatientDepartmentService.cs" />
+    <Compile Include="Service\YinHaiService.cs" />
     <Compile Include="Test\BaseDataXmlDto.cs" />
     <Compile Include="Test\CancelOutpatientSettlementControlXmlDto.cs" />
     <Compile Include="Test\CancelOutpatientSettlementDataXmlDto.cs" />

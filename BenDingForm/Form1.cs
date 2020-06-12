@@ -22,7 +22,7 @@ namespace BenDingForm
 {
     public partial class Form1 : Form
     {
-        YinHaiOutpatientDepartmentService yinHaiService = new YinHaiOutpatientDepartmentService();
+        YinHaiService yinHaiService = new YinHaiService();
         OutpatientDepartmentService _residentd = new OutpatientDepartmentService();
         public string UserId = "E075AC49FCE443778F897CF839F3B924";
         public string medicalInsuranceOrganization = "0022";
@@ -685,13 +685,13 @@ namespace BenDingForm
             };
             var controlXml = XmlHelp.YinHaiXmlSerialize(control);
             string dataXml = XmlHelp.YinHaiXmlSerialize(data);
-            var resultData=  activeX.YiHaiOutpatientMethods(controlXml, dataXml, "MedicalInsuranceSignIn", "123");
+            var resultData=  activeX.YiHaiMethods(controlXml, dataXml, "MedicalInsuranceSignIn", "123");
         }
 
         private void button7_Click_1(object sender, EventArgs e)
         {
             var activeX = new MacActiveX();
-            var resultData = activeX.YiHaiOutpatientMethods("GetSignInUserId", "GetSignInUserId", "GetSignInUserId", "123");
+            var resultData = activeX.YiHaiMethods("GetSignInUserId", "GetSignInUserId", "GetSignInUserId", "123");
         }
     }
 

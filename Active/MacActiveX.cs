@@ -44,14 +44,14 @@ namespace BenDingActive
         //    return resultData;
         //}
         /// <summary>
-        /// 门诊方法集合
+        /// 银海医保方法集合
         /// </summary>
         /// <param name="controlParam"></param>
         /// <param name="inputParam"></param>
         /// <param name="methodName"></param>
         /// <param name="operatorId"></param>
         /// <returns></returns>
-        public string YiHaiOutpatientMethods(string controlParam, string inputParam, string methodName, string operatorId)
+        public string YiHaiMethods(string controlParam, string inputParam, string methodName, string operatorId)
         {
             //var sendService = new SendService();
             //var iniParam = new YiHaiMethodsDto()
