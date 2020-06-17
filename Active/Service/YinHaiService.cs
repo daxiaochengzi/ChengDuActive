@@ -725,9 +725,9 @@ namespace BenDingActive.Service
                 }
                 else
                 {
-                    //YinHaiCOM.CallDeal(iniParam);
+                    YinHaiCOM.CallDeal(iniParam);
                     //测试执行
-                    iniParam = GetDealModelTest(param);
+                    //iniParam = GetDealModelTest(param);
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
                 }
 
