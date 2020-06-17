@@ -51,7 +51,7 @@ namespace BenDingActive
         /// <param name="methodName"></param>
         /// <param name="operatorId"></param>
         /// <returns></returns>
-        public string YiHaiMethods(string controlParam, string inputParam, string methodName, string operatorId)
+        public string YinHaiMethods(string controlParam, string inputParam, string methodName, string operatorId)
         {
             //var sendService = new SendService();
             //var iniParam = new YiHaiMethodsDto()
@@ -71,7 +71,7 @@ namespace BenDingActive
 
             ////反射获取 命名空间 + 类名
             string className = "BenDingActive.Service.YinHaiService";
-            var resultData = YiHaiMedicalInsuranceExecute(controlParam, inputParam, methodName, operatorId, className);
+            var resultData = YinHaiMedicalInsuranceExecute(controlParam, inputParam, methodName, operatorId, className);
             return resultData;
         }
         /// <summary>
@@ -119,7 +119,7 @@ namespace BenDingActive
         /// <param name="operatorId"></param>
         /// <param name="namespaces"></param>
         /// <returns></returns>
-        private string YiHaiMedicalInsuranceExecute(string param, string baseParam, string methodName, string operatorId, string namespaces)
+        private string YinHaiMedicalInsuranceExecute(string param, string baseParam, string methodName, string operatorId, string namespaces)
         {
             string resultData = null;
             try

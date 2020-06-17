@@ -134,7 +134,7 @@
     <Compile Include="Test\SignInControlXmlDto.cs" />
     <Compile Include="Test\SignInDataXmlDto.cs" />
     <Compile Include="UDPClient.cs" />
-    <Compile Include="YiHaiMethodsDto.cs" />
+    <Compile Include="YinHaiMethodsDto.cs" />
     <Compile Include="YinHaiCOM.cs" />
   </ItemGroup>
   <ItemGroup>

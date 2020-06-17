@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BenDingActive
 {//string param, string baseParam, string methodName, string operatorId
-    public class YiHaiMethodsDto
+    public class YinHaiMethodsDto
     {
         /// <summary>
         /// 控制参数

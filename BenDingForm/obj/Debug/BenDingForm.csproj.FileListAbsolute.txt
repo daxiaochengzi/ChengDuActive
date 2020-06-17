@@ -129,3 +129,11 @@ C:\git\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.csproj.GenerateResource.c
 C:\git\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.csproj.CoreCompileInputs.cache
 C:\git\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.exe
 C:\git\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.pdb
+C:\git\ChengDuActive\BenDingForm\bin\Debug\BenDingForm.exe.config
+C:\git\ChengDuActive\BenDingForm\bin\Debug\BenDingForm.exe
+C:\git\ChengDuActive\BenDingForm\bin\Debug\BenDingForm.pdb
+C:\git\ChengDuActive\BenDingForm\bin\Debug\BenDingActive.dll
+C:\git\ChengDuActive\BenDingForm\bin\Debug\Newtonsoft.Json.dll
+C:\git\ChengDuActive\BenDingForm\bin\Debug\BenDingActive.pdb
+C:\git\ChengDuActive\BenDingForm\bin\Debug\Newtonsoft.Json.xml
+C:\git\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.csproj.CopyComplete

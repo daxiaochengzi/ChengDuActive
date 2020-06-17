@@ -193,6 +193,7 @@ namespace BenDingActive.Service
             var initData= YinHaiCOM.Init(out msg);
             if (initData == false)throw new  Exception("初始化失败:"+ msg);
            var  resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            //设置操作人员
             YinHaiCOM.SetSignInUserId(operatorId);
             return resultData;
 
