@@ -685,13 +685,13 @@ namespace BenDingForm
             };
             var controlXml = XmlHelp.YinHaiXmlSerialize(control);
             string dataXml = XmlHelp.YinHaiXmlSerialize(data);
-            var resultData=  activeX.YiHaiMethods(controlXml, dataXml, "MedicalInsuranceSignIn", "123");
+            var resultData=  activeX.YinHaiMethods(controlXml, dataXml, "MedicalInsuranceSignIn", "123");
         }
 
         private void button7_Click_1(object sender, EventArgs e)
         {
             var activeX = new MacActiveX();
-            var resultData = activeX.YiHaiMethods("GetSignInUserId", "GetSignInUserId", "GetSignInUserId", "123");
+            var resultData = activeX.YinHaiMethods("GetSignInUserId", "GetSignInUserId", "GetSignInUserId", "123");
         }
     }
 
