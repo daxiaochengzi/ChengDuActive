@@ -693,6 +693,11 @@ namespace BenDingForm
             var activeX = new MacActiveX();
             var resultData = activeX.YinHaiMethods("GetSignInUserId", "GetSignInUserId", "GetSignInUserId", "123");
         }
+
+        private void btn_Register_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 
 

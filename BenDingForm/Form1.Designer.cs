@@ -51,10 +51,13 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button16 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_Register = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
@@ -286,20 +289,10 @@
             this.panel2.Controls.Add(this.button15);
             this.panel2.Controls.Add(this.textBox2);
             this.panel2.Controls.Add(this.textBox1);
-            this.panel2.Location = new System.Drawing.Point(26, 209);
+            this.panel2.Location = new System.Drawing.Point(5, 357);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(785, 100);
             this.panel2.TabIndex = 18;
-            // 
-            // button16
-            // 
-            this.button16.Location = new System.Drawing.Point(331, 16);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(75, 23);
-            this.button16.TabIndex = 18;
-            this.button16.Text = "签到测试";
-            this.button16.UseVisualStyleBackColor = true;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
             // 
             // button7
             // 
@@ -311,11 +304,42 @@
             this.button7.UseVisualStyleBackColor = true;
             this.button7.Click += new System.EventHandler(this.button7_Click_1);
             // 
+            // button16
+            // 
+            this.button16.Location = new System.Drawing.Point(331, 16);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(75, 23);
+            this.button16.TabIndex = 18;
+            this.button16.Text = "签到测试";
+            this.button16.UseVisualStyleBackColor = true;
+            this.button16.Click += new System.EventHandler(this.button16_Click);
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.btn_Register);
+            this.groupBox1.Location = new System.Drawing.Point(12, 191);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(778, 160);
+            this.groupBox1.TabIndex = 19;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "住院";
+            // 
+            // btn_Register
+            // 
+            this.btn_Register.Location = new System.Drawing.Point(14, 20);
+            this.btn_Register.Name = "btn_Register";
+            this.btn_Register.Size = new System.Drawing.Size(75, 23);
+            this.btn_Register.TabIndex = 0;
+            this.btn_Register.Text = "入院登记";
+            this.btn_Register.UseVisualStyleBackColor = true;
+            this.btn_Register.Click += new System.EventHandler(this.btn_Register_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(823, 400);
+            this.ClientSize = new System.Drawing.Size(1081, 456);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btn_datacode);
             this.Controls.Add(this.btn_icd10);
@@ -331,6 +355,7 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -362,6 +387,8 @@
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Button btn_Register;
     }
 }
 
