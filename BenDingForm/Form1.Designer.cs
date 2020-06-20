@@ -102,7 +102,7 @@
             // 
             // button5
             // 
-            this.button5.Location = new System.Drawing.Point(114, 19);
+            this.button5.Location = new System.Drawing.Point(273, 19);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 4;
@@ -129,7 +129,7 @@
             // 
             // button8
             // 
-            this.button8.Location = new System.Drawing.Point(289, 19);
+            this.button8.Location = new System.Drawing.Point(354, 19);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(75, 23);
             this.button8.TabIndex = 6;
@@ -139,7 +139,7 @@
             // 
             // 签到测试
             // 
-            this.签到测试.Location = new System.Drawing.Point(195, 19);
+            this.签到测试.Location = new System.Drawing.Point(106, 19);
             this.签到测试.Name = "签到测试";
             this.签到测试.Size = new System.Drawing.Size(75, 23);
             this.签到测试.TabIndex = 6;
@@ -149,7 +149,7 @@
             // 
             // btn_read_Card
             // 
-            this.btn_read_Card.Location = new System.Drawing.Point(370, 19);
+            this.btn_read_Card.Location = new System.Drawing.Point(187, 19);
             this.btn_read_Card.Name = "btn_read_Card";
             this.btn_read_Card.Size = new System.Drawing.Size(75, 23);
             this.btn_read_Card.TabIndex = 5;
