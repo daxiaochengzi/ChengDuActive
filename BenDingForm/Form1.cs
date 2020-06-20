@@ -696,7 +696,13 @@ namespace BenDingForm
 
         private void btn_Register_Click(object sender, EventArgs e)
         {
-
+            var activeX = new MacActiveX();
+            var service = new YinHaiService();
+            var testParam = service.GetTestParam("21");
+            var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml, 
+                                testParam.TransactionInputXml, 
+                                "HospitalizationRegister", 
+                                "123");
         }
     }
 
