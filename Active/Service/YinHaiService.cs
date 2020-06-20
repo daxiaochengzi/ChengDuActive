@@ -693,6 +693,113 @@ namespace BenDingActive.Service
         }
 
         #endregion
+
+        #region 住院
+        /// <summary>
+        /// 入院登记
+        /// </summary>
+        /// <returns></returns>
+        public ApiJsonResultData HospitalizationRegister(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "21",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+        }
+
+        /// <summary>
+        /// 取消入院登记
+        /// </summary>
+
+        public ApiJsonResultData CancelHospitalizationRegister(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "22",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+        }
+        /// <summary>
+        /// 修改入院登记
+        /// </summary>
+
+        public ApiJsonResultData ModifyHospitalizationRegister(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "23",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+
+
+        }
+        /// <summary>
+        /// 离院办理
+        /// </summary>
+
+        public ApiJsonResultData LeaveHospitalization(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "25",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+
+
+        }
+        /// <summary>
+        /// 取消离院办理
+        /// </summary>
+
+        public ApiJsonResultData CancelLeaveHospitalization(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "26",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+
+
+        }
+
+        #endregion
+
         /// <summary>
         /// 银海医保执行
         /// </summary>
@@ -725,9 +832,9 @@ namespace BenDingActive.Service
                 }
                 else
                 {
-                    YinHaiCOM.CallDeal(iniParam);
+                    //YinHaiCOM.CallDeal(iniParam);
                     //测试执行
-                    //iniParam = GetDealModelTest(param);
+                    iniParam = GetDealModelTest(param);
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
                 }
 

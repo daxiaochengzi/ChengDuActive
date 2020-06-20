@@ -168,28 +168,28 @@ namespace BenDingActive
         public static bool Init(out string msg)
         {
 
-            int Appcode = -1;
-            msg = string.Empty;
-            object[] args = new object[] { Appcode, msg };
-            yhObject = System.Activator.CreateInstance(yh);
-            ParameterModifier pm = new ParameterModifier(2);
-            pm[0] = true;
-            pm[1] = true;
-            ParameterModifier[] pmd = { pm };
-            yh.InvokeMember("yh_interface_init", BindingFlags.InvokeMethod, null,
-                yhObject, args, pmd, System.Globalization.CultureInfo.CurrentCulture, null);
+            //int Appcode = -1;
+            //msg = string.Empty;
+            //object[] args = new object[] { Appcode, msg };
+            //yhObject = System.Activator.CreateInstance(yh);
+            //ParameterModifier pm = new ParameterModifier(2);
+            //pm[0] = true;
+            //pm[1] = true;
+            //ParameterModifier[] pmd = { pm };
+            //yh.InvokeMember("yh_interface_init", BindingFlags.InvokeMethod, null,
+            //    yhObject, args, pmd, System.Globalization.CultureInfo.CurrentCulture, null);
 
-            string o1 = args[0].ToString();
-            string o2 = args[1].ToString();
+            //string o1 = args[0].ToString();
+            //string o2 = args[1].ToString();
 
-            if (Convert.ToInt32(o1) < 0)
-            {
-                msg = o2;
-                return false;
-            }
+            //if (Convert.ToInt32(o1) < 0)
+            //{
+            //    msg = o2;
+            //    return false;
+            //}
 
             //测试
-            //msg = "";
+            msg = "";
             return true;
         }
 

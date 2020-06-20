@@ -84,3 +84,4 @@ C:\git\ChengDuActive\Active\obj\Debug\BenDingActive.csproj.CoreCompileInputs.cac
 C:\git\ChengDuActive\Active\obj\Debug\BenDingActive.csproj.CopyComplete
 C:\git\ChengDuActive\Active\obj\Debug\BenDingActive.dll
 C:\git\ChengDuActive\Active\obj\Debug\BenDingActive.pdb
+C:\git\ChengDuActive\Active\obj\Debug\BenDingActive.csprojAssemblyReference.cache
