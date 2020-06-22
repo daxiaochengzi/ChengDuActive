@@ -715,6 +715,17 @@ namespace BenDingForm
                 "CancelHospitalizationRegister",
                 "123");
         }
+
+        private void btn_model_Click(object sender, EventArgs e)
+        {
+            var activeX = new MacActiveX();
+            var service = new YinHaiService();
+            var testParam = service.GetTestParam("23");
+            var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml,
+                testParam.TransactionInputXml,
+                "ModifyHospitalizationRegister",
+                "123");
+        }
     }
 
 

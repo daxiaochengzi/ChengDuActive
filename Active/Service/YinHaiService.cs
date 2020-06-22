@@ -1165,7 +1165,47 @@ namespace BenDingActive.Service
 
             if (param == "26")
             {
-                controlXml = "<control><edition>5.0</edition></control>";
+                controlXml = @"<control>
+                      <akc190>00032006209161476</akc190>
+                       <aac001>010025489</aac001>
+                       <aka130>0309</aka130>
+                       <yab003>098041</yab003>
+                    </control>";
+                inputXml = @"<data>
+                            <aae011>李茜</aae011>
+                            </data>";
+            }
+
+            //入院登记
+            if (param == "23")
+            {
+                controlXml = @"<control>
+                    <akc190>00032006209161476</akc190>
+                   <aac001>010025489</aac001>
+                   <aka130>0309</aka130>
+                   <yab003>098041</yab003>
+                   <change>1</change>   
+                   <yka054>01</yka054>
+                  <edition>5.0</edition> 
+                </control>";
+                inputXml = @"<data>
+                                <ykc009>105220200620001</ykc009>
+                                <ykc010>105220200620001</ykc010>
+                                <akc192>2020-06-20 14:56:00</akc192>
+                                <akc193>G43.802</akc193>
+                                <ykc011>内科</ykc011>
+                                <ykc012>8</ykc012>
+                                <ykc147>偏头疼</ykc147>
+                                <aae011>李茜</aae011>
+                                <ykc014>2020-06-20 14:56:00</ykc014>
+                                <yke660></yke660>
+                                <yke380></yke380>
+                                <aae004>李蓉</aae004>
+                                <yke661></yke661>
+                                <aae005>15928643160</aae005>
+                                <yke662>5637833249534479422</yke662>
+                                <yke413></yke413>
+                            </data>";
             }
 
             resultData.TransactionControlXml = xmlStr + controlXml;

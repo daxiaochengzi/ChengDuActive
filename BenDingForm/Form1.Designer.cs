@@ -54,8 +54,9 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.btn_Register = new System.Windows.Forms.Button();
             this.btn_Cancel = new System.Windows.Forms.Button();
+            this.btn_Register = new System.Windows.Forms.Button();
+            this.btn_model = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -317,6 +318,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btn_model);
             this.groupBox1.Controls.Add(this.btn_Cancel);
             this.groupBox1.Controls.Add(this.btn_Register);
             this.groupBox1.Location = new System.Drawing.Point(12, 191);
@@ -325,6 +327,16 @@
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "住院";
+            // 
+            // btn_Cancel
+            // 
+            this.btn_Cancel.Location = new System.Drawing.Point(203, 20);
+            this.btn_Cancel.Name = "btn_Cancel";
+            this.btn_Cancel.Size = new System.Drawing.Size(75, 23);
+            this.btn_Cancel.TabIndex = 1;
+            this.btn_Cancel.Text = "取消入院登记";
+            this.btn_Cancel.UseVisualStyleBackColor = true;
+            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
             // 
             // btn_Register
             // 
@@ -336,15 +348,15 @@
             this.btn_Register.UseVisualStyleBackColor = true;
             this.btn_Register.Click += new System.EventHandler(this.btn_Register_Click);
             // 
-            // btn_Cancel
+            // btn_model
             // 
-            this.btn_Cancel.Location = new System.Drawing.Point(106, 20);
-            this.btn_Cancel.Name = "btn_Cancel";
-            this.btn_Cancel.Size = new System.Drawing.Size(75, 23);
-            this.btn_Cancel.TabIndex = 1;
-            this.btn_Cancel.Text = "取消入院登记";
-            this.btn_Cancel.UseVisualStyleBackColor = true;
-            this.btn_Cancel.Click += new System.EventHandler(this.btn_Cancel_Click);
+            this.btn_model.Location = new System.Drawing.Point(106, 20);
+            this.btn_model.Name = "btn_model";
+            this.btn_model.Size = new System.Drawing.Size(75, 23);
+            this.btn_model.TabIndex = 20;
+            this.btn_model.Text = "修改入院登记";
+            this.btn_model.UseVisualStyleBackColor = true;
+            this.btn_model.Click += new System.EventHandler(this.btn_model_Click);
             // 
             // Form1
             // 
@@ -402,6 +414,7 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button btn_Register;
         private System.Windows.Forms.Button btn_Cancel;
+        private System.Windows.Forms.Button btn_model;
     }
 }
 
