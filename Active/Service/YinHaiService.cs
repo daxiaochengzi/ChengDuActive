@@ -73,9 +73,9 @@ namespace BenDingActive.Service
                     OperatorCode = operatorId
 
                 });
-                //YinHaiCOM.CallDeal(iniParam);
-                iniParam.TransactionOutputXml = xmlStr;
-                iniParam.along_appcode = 1;
+                YinHaiCOM.CallDeal(iniParam);
+                //iniParam.TransactionOutputXml = xmlStr;
+                //iniParam.along_appcode = 1;
                 if (iniParam.along_appcode < 0) throw new Exception("yiHai" + iniParam.Msg);
                 if (string.IsNullOrWhiteSpace(iniParam.TransactionOutputXml)) throw new Exception("yiHai医保执行获取个人信息为空");
                 var userData = XmlHelp.YiHaiDeSerializerModelJson(new GetUserInfoJsonDto(), iniParam.TransactionOutputXml);
@@ -523,10 +523,10 @@ namespace BenDingActive.Service
 
 
 
-                    //YinHaiCOM.ConfirmDeal(iniParam);
+                    YinHaiCOM.ConfirmDeal(iniParam);
 
                     //测试
-                    iniParam.along_appcode = 1;
+                   // iniParam.along_appcode = 1;
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
                 }
                 resultData.Data = JsonConvert.SerializeObject(iniParam);
@@ -1149,8 +1149,8 @@ namespace BenDingActive.Service
                                 <akc192>2020-06-20 14:56:00</akc192>
                                 <akc193>G43.802</akc193>
                                 <ykc011>内科</ykc011>
-                                <ykc012></ykc012>
-                                <ykc147></ykc147>
+                                <ykc012>8</ykc012>
+                                <ykc147>偏头疼</ykc147>
                                 <aae011>李茜</aae011>
                                 <ykc014>2020-06-20 14:56:00</ykc014>
                                 <yke660></yke660>
@@ -1162,6 +1162,12 @@ namespace BenDingActive.Service
                                 <yke413></yke413>
                             </data>";
             }
+
+            if (param == "26")
+            {
+                controlXml = "<control><edition>5.0</edition></control>";
+            }
+
             resultData.TransactionControlXml = xmlStr + controlXml;
             resultData.TransactionInputXml = xmlStr + inputXml;
             return resultData;
