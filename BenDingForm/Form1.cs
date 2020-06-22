@@ -552,8 +552,8 @@ namespace BenDingForm
             //                <dir>C:\Program Files (x86)\Microsoft\本鼎医保插件\xmlData</dir>
             //                </data>";
 
-            var xmlControl = "110C0003SJ37F6E434";
-            var xmlInput = "1499927527";
+            var xmlControl = "21C0000SJ37F6F177";
+            var xmlInput = "0000S293400952";
             var resultData = yinHaiService.ConfirmDeal(xmlControl, xmlInput, UserId);
             MessageBoxShow(resultData);
         }
@@ -703,6 +703,17 @@ namespace BenDingForm
                                 testParam.TransactionInputXml, 
                                 "HospitalizationRegister", 
                                 "123");
+        }
+
+        private void btn_Cancel_Click(object sender, EventArgs e)
+        {
+            var activeX = new MacActiveX();
+            var service = new YinHaiService();
+            var testParam = service.GetTestParam("26");
+            var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml,
+                testParam.TransactionInputXml,
+                "CancelHospitalizationRegister",
+                "123");
         }
     }
 
