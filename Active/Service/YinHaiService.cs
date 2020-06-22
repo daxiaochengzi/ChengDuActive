@@ -1169,22 +1169,22 @@ namespace BenDingActive.Service
                       <akc190>00032006209161476</akc190>
                        <aac001>010025489</aac001>
                        <aka130>0309</aka130>
-                       <yab003>098041</yab003>
+                       <yab003>0003</yab003>
                     </control>";
                 inputXml = @"<data>
                             <aae011>李茜</aae011>
                             </data>";
             }
 
-            //入院登记
+            //入院修改登记
             if (param == "23")
             {
                 controlXml = @"<control>
                     <akc190>00032006209161476</akc190>
                    <aac001>010025489</aac001>
                    <aka130>0309</aka130>
-                   <yab003>098041</yab003>
-                   <change>1</change>   
+                   <yab003>0003</yab003>
+                   <change></change>   
                    <yka054>01</yka054>
                   <edition>5.0</edition> 
                 </control>";
