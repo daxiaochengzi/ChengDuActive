@@ -303,7 +303,6 @@ namespace BenDingActive.Service
             var resultData = YiHaiMedicalInsuranceOperation(iniParam);
             return resultData;
         }
-
         /// <summary>
         /// 查询不确定交易
         /// </summary>
@@ -345,30 +344,30 @@ namespace BenDingActive.Service
                 else
                 {
 
-                    //YinHaiCOM.Getuncertaintytrade(iniParam);
-                    //测试数据
-                    iniParam.along_appcode = 1;
-                    var outputData = new QueryUncertainTransactionOutputXmlDto();
-                    var listRow = new List<QueryUncertainTransactionOutputRowXmlDto>();
-                    listRow.Add(new QueryUncertainTransactionOutputRowXmlDto()
-                    {
-                        SerialNumber = "12C0000SJ37F6E2F8",
-                        Key = new List<QueryUncertainTransactionOutputRowKeyXmlDto>()
-                        {
-                            new QueryUncertainTransactionOutputRowKeyXmlDto()
-                            { SettlementNo = "0003S293400370",
-                              VisitNo = "00002005289161163",
-                                ReimbursementType = "门诊结算"
-                            },new QueryUncertainTransactionOutputRowKeyXmlDto()
-                            {
-                                SettlementNo = "0003S293400370",
-                                VisitNo = "00002005289161163",
-                                ReimbursementType = "门诊结算"
-                            }
-                        }
-                    });
-                    outputData.Row = listRow;
-                    iniParam.TransactionOutputXml = XmlHelp.YinHaiXmlSerialize(outputData);
+                    YinHaiCOM.Getuncertaintytrade(iniParam);
+
+                    //var outputData = new QueryUncertainTransactionOutputXmlDto();
+                    //var listRow = new List<QueryUncertainTransactionOutputRowXmlDto>();
+                    //listRow.Add(new QueryUncertainTransactionOutputRowXmlDto()
+                    //{
+                    //    SerialNumber = "12C0000SJ37F6E2F8",
+                    //    Key = new List<QueryUncertainTransactionOutputRowKeyXmlDto>()
+                    //    {
+                    //        new QueryUncertainTransactionOutputRowKeyXmlDto()
+                    //        { SettlementNo = "0003S293400370",
+                    //          VisitNo = "00002005289161163",
+                    //            ReimbursementType = "门诊结算"
+                    //        },new QueryUncertainTransactionOutputRowKeyXmlDto()
+                    //        {
+                    //            SettlementNo = "0003S293400370",
+                    //            VisitNo = "00002005289161163",
+                    //            ReimbursementType = "门诊结算"
+                    //        }
+                    //    }
+                    //});
+                    //outputData.Row = listRow;
+                    //XmlHelp.YinHaiXmlSerialize(outputData);
+                    //iniParam.TransactionOutputXml = 
                     //----
 
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
@@ -555,7 +554,6 @@ namespace BenDingActive.Service
             return resultData;
 
         }
-
         /// <summary>
         /// 获取服务项目
         /// </summary>
@@ -588,9 +586,6 @@ namespace BenDingActive.Service
         /// <returns></returns>
         public ApiJsonResultData OutpatientRegister(string controlParam, string inputParam, string operatorId)
         {
-
-
-
             var iniParam = new YiHaiMedicalInsuranceOperationParam
             {
 
