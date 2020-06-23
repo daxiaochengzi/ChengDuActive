@@ -524,9 +524,8 @@ namespace BenDingActive.Service
 
 
                     YinHaiCOM.ConfirmDeal(iniParam);
-
                     //测试
-                   // iniParam.along_appcode = 1;
+                   //iniParam.along_appcode = 1;
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
                 }
                 resultData.Data = JsonConvert.SerializeObject(iniParam);
@@ -1119,7 +1118,42 @@ namespace BenDingActive.Service
                 xmlStr += @"<output><row><yab003>0022</yab003><yke190>1</yke190><yke189>0022S293400084</yke189><yke191>2020-05-27 17:38:21</yke191><aae013></aae013> </row></output>";
                 resultData.TransactionOutputXml = xmlStr;
             }
-
+            //入院登记
+            if (param.TransactionNumber == "21")
+            {
+                resultData.SerialNumber = "21C0000SJ37F6F177";
+                resultData.BatchNo = "0000S293400952";
+                xmlStr += @"<output>
+                            <akb020>098041</akb020>
+                            <yab003>0003</yab003>
+                            <aka130>0309</aka130>
+                            <akc190>00032006209161476</akc190>
+                            <aac001>010025489</aac001>
+                            <aac003>李蓉</aac003>
+                            <aac004>2</aac004>
+                            <aac006>1965-10-03 00:00:00</aac006>
+                            <akc021>02</akc021>
+                            <yka026></yka026>
+                            <yka115>500.00</yka115>
+                            <yka119>252768.00</yka119>
+                            <aae013></aae013>
+                        </output>";
+                resultData.TransactionOutputXml = xmlStr;
+            }
+            //取消入院登记
+            if (param.TransactionNumber == "22")
+            {
+                resultData.SerialNumber = "22C0003SJ37F6F17C";
+                resultData.BatchNo = "0003S293400960";
+                xmlStr += @"<output></output>";
+                resultData.TransactionOutputXml = xmlStr;
+            }
+            //修改入院登记
+            if(param.TransactionNumber == "23")
+            {
+                xmlStr += @"<output></output>";
+                resultData.TransactionOutputXml = xmlStr;
+            }
             return resultData;
         }
         /// <summary>
@@ -1162,7 +1196,7 @@ namespace BenDingActive.Service
                                 <yke413></yke413>
                             </data>";
             }
-
+            //取消入院登记
             if (param == "26")
             {
                 controlXml = @"<control>

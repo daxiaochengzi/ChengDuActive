@@ -188,7 +188,7 @@ namespace BenDingActive
                 return false;
             }
 
-            ////测试
+            //测试
             //msg = "";
             return true;
         }
@@ -208,47 +208,6 @@ namespace BenDingActive
             }
         }
 
-        ////        参数名称 参数含义    参数类型 参数类别    参数说明
-        ////astr_jybh   交易编号 String  入口参数 具体的交易代码见〖交易列表〗
-
-        ////astr_jysr_xml 交易输入    String 入口参数    xml方式，组织方式见业务说明，字符串最大长度65534字符
-        ////astr_jylsh  交易流水号 String  出口参数 唯一标识一次交易，VARCHAR(20)
-        ////astr_jyyzm 交易验证码   String 出口参数    处理类交易返回，确认交易时传入
-        ////VARCHAR(15)
-        ////astr_jysc_xml 交易输出    String 出口参数    xml方式，组织方式见业务说明
-        ////along_appcode   交易标志 long 出口参数    小于0均为失败。此值数据类型是整数，范围为-2147483648 to +2147483647
-        ////astr_appmsg 交易信息    String 出口参数    错误信息描述。along_appcode小于0时存放错误描述，其他along_appcode>=0时不用关心该参数内容。
-        ////[DllImport("yh_interface.dll")]
-        ////private static extern void yh_interface_call(string astr_jybh,string astr_jysr_xml,ref string astr_jylsh,ref string astr_jyyzm,ref string astr_jysc_xml,ref long along_appcode,ref string astr_appmsg);
-
-        //private static void yh_interface_call(string astr_jybh, string astr_jykz_xml, string astr_jysr_xml, ref string astr_pcbh, ref string astr_jylsh, ref string astr_jyyzm, ref string astr_jysc_xml, ref int along_appcode, ref string astr_appmsg)
-        //{
-
-        //    object[] args = new object[] {astr_jybh,astr_jysr_xml,
-        //                astr_jylsh,astr_jyyzm,astr_jysc_xml, along_appcode, astr_appmsg };
-
-        //    ParameterModifier pm = new ParameterModifier(7);
-        //    pm[0] = false;
-        //    pm[1] = false;
-        //    pm[2] = true;
-        //    pm[3] = true;
-        //    pm[4] = true;
-        //    pm[5] = true;
-        //    pm[6] = true;
-        //    ParameterModifier[] pmd = { pm };
-        //    yh.InvokeMember("yh_interface_call", BindingFlags.InvokeMethod, null,
-        //        yhObject, args, pmd, System.Globalization.CultureInfo.CurrentCulture, null);
-        //    object o0 = args[0].ToString();
-        //    object o1 = args[1].ToString();
-
-        //    astr_jylsh = args[2].ToString();
-        //    astr_jyyzm = args[3].ToString();
-        //    astr_jysc_xml = args[4].ToString();
-        //    along_appcode = Convert.ToInt32(args[5].ToString());
-        //    astr_appmsg = args[6].ToString();
-
-
-        //}
         private static void yh_interface_confirm(string astr_jylsh, string astr_jyyzm, ref int along_appcode, ref string astr_appmsg)
         {
             if (yhObject == null) yhObject = System.Activator.CreateInstance(yh);
