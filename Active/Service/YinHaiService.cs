@@ -343,7 +343,8 @@ namespace BenDingActive.Service
                 }
                 else
                 {
-
+                    string cc = "<?xml version=\"1.0\" encoding=\"GBK\" standalone=\"yes\" ?>";
+                    cc += @"<output><row><yke014>11C0000SJ37F6E441</yke014><yke015>11</yke015><key><akc190>00002005299161203</akc190><yka103>00002005296415697</yka103><ykd007>01</ykd007></key></row></output>";
                     YinHaiCOM.Getuncertaintytrade(iniParam);
 
                     //var outputData = new QueryUncertainTransactionOutputXmlDto();
@@ -374,7 +375,7 @@ namespace BenDingActive.Service
                 }
 
 
-                resultData.Data = JsonConvert.SerializeObject(iniParam);
+                resultData.Data = XmlHelp.YinHaiDeSerializerXml<QueryUncertainTransactionOutputXmlDto>(iniParam.TransactionOutputXml);
 
                 Logs.LogWriteData(new LogWriteDataParam
                 {

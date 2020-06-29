@@ -531,12 +531,13 @@ namespace BenDingForm
         {
             var resultData = yinHaiService.Getuncertaintytrade("11","11", UserId);
             MessageBoxShow(resultData);
+          
 
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            var resultData = yinHaiService.CancelDeal(null, "110C0000SJ37F6E25F", UserId);
+            var resultData = yinHaiService.CancelDeal(null, "11C0000SJ37F6E441", UserId);
             MessageBoxShow(resultData);
         }
 
