@@ -372,8 +372,6 @@ namespace BenDingActive.Service
 
                     if (iniParam.along_appcode < 0) throw new Exception("yinHaiMsg" + iniParam.Msg);
                 }
-
-
                 resultData.Data = JsonConvert.SerializeObject(iniParam);
 
                 Logs.LogWriteData(new LogWriteDataParam
