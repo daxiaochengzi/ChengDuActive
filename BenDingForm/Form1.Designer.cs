@@ -54,9 +54,9 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btn_model = new System.Windows.Forms.Button();
             this.btn_Cancel = new System.Windows.Forms.Button();
             this.btn_Register = new System.Windows.Forms.Button();
-            this.btn_model = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -183,7 +183,7 @@
             // 
             this.button11.Location = new System.Drawing.Point(12, 91);
             this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(75, 23);
+            this.button11.Size = new System.Drawing.Size(131, 23);
             this.button11.TabIndex = 7;
             this.button11.Text = "查询不确定的交易";
             this.button11.UseVisualStyleBackColor = true;
@@ -191,7 +191,7 @@
             // 
             // button12
             // 
-            this.button12.Location = new System.Drawing.Point(102, 91);
+            this.button12.Location = new System.Drawing.Point(175, 91);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(75, 23);
             this.button12.TabIndex = 8;
@@ -201,7 +201,7 @@
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(183, 91);
+            this.button13.Location = new System.Drawing.Point(256, 91);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(75, 23);
             this.button13.TabIndex = 9;
@@ -211,7 +211,7 @@
             // 
             // button10
             // 
-            this.button10.Location = new System.Drawing.Point(264, 91);
+            this.button10.Location = new System.Drawing.Point(337, 91);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(147, 23);
             this.button10.TabIndex = 10;
@@ -328,6 +328,16 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "住院";
             // 
+            // btn_model
+            // 
+            this.btn_model.Location = new System.Drawing.Point(106, 20);
+            this.btn_model.Name = "btn_model";
+            this.btn_model.Size = new System.Drawing.Size(75, 23);
+            this.btn_model.TabIndex = 20;
+            this.btn_model.Text = "修改入院登记";
+            this.btn_model.UseVisualStyleBackColor = true;
+            this.btn_model.Click += new System.EventHandler(this.btn_model_Click);
+            // 
             // btn_Cancel
             // 
             this.btn_Cancel.Location = new System.Drawing.Point(203, 20);
@@ -347,16 +357,6 @@
             this.btn_Register.Text = "入院登记";
             this.btn_Register.UseVisualStyleBackColor = true;
             this.btn_Register.Click += new System.EventHandler(this.btn_Register_Click);
-            // 
-            // btn_model
-            // 
-            this.btn_model.Location = new System.Drawing.Point(106, 20);
-            this.btn_model.Name = "btn_model";
-            this.btn_model.Size = new System.Drawing.Size(75, 23);
-            this.btn_model.TabIndex = 20;
-            this.btn_model.Text = "修改入院登记";
-            this.btn_model.UseVisualStyleBackColor = true;
-            this.btn_model.Click += new System.EventHandler(this.btn_model_Click);
             // 
             // Form1
             // 

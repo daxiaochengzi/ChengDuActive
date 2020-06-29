@@ -360,9 +360,9 @@ namespace BenDingForm
                           <yke410>0</yke410>
                           <yke411>3</yke411>
                           <yke414>02010000</yke414>
-                          <yke506>4617180898677846617</yke506>
+                          <yke506>4625897907689607045</yke506>
                           <yke412>内科病区</yke412>
-                          <yke413>8</yke413>
+                          <yke413>006</yke413>
                           <aae011>李茜</aae011>
                           <aae036>2020-05-25 08:53:52</aae036>
                         </row>
@@ -370,8 +370,8 @@ namespace BenDingForm
                       <datasetks>
                         <row>
                           <yke414>02010000</yke414>
-                          <yke506>4617180898677846617</yke506>
-                          <yke415>内科</yke415>
+                          <yke506>5009920413175244308</yke506>
+                          <yke415>外科</yke415>
                           <yke416>""</yke416>
                           <yke417>1</yke417>
                           <aae011>李茜</aae011>
@@ -401,13 +401,27 @@ namespace BenDingForm
                       </datasetyzry>
                     </data>";
 
+            string inputXmLStrs = @"<?xml version='1.0' encoding='gb2312' standalone='yes'?>
+                    <data>
+                    <datasetcw>
+                        <row>
+                          <yke410>0</yke410>
+                          <yke411>3</yke411>
+                          <yke414>02010000</yke414>
+                          <yke506>4625897907689607045</yke506>
+                          <yke412>内科病区</yke412>
+                          <yke413>008</yke413>
+                          <aae011>李茜</aae011>
+                          <aae036>2020-05-25 08:53:52</aae036>
+                        </row>
+                      </datasetcw></data>";
             var controlDataXml = new ControlXmlBaseDto()
             {
-                MedicalInsuranceHandleNo = "0022"
+                MedicalInsuranceHandleNo = "0003"
             };
 
             var controlXml = XmlHelp.YinHaiXmlSerialize(controlDataXml);
-            var resultData = yinHaiService.HospitalInfoUpload(controlXml, inputXmLStr, UserId);
+            var resultData = yinHaiService.HospitalInfoUpload(controlXml, inputXmLStrs, UserId);
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -553,9 +567,10 @@ namespace BenDingForm
             //                <dir>C:\Program Files (x86)\Microsoft\本鼎医保插件\xmlData</dir>
             //                </data>";
 
-            var xmlControl = "22C0003SJ37F6F17C";
-            var xmlInput = "";
+            var xmlControl = "11C0000SJ37F6F585";
+            var xmlInput = "457840301";
             var resultData = yinHaiService.ConfirmDeal(xmlControl, xmlInput, UserId);
+
             MessageBoxShow(resultData);
         }
 
@@ -568,14 +583,14 @@ namespace BenDingForm
         {
             var control = new CancelOutpatientSettlementControlXmlDto()
             {
-            VisitNo= "00002005289161163",
-            SettlementNo= "00002005286415621",
-            PayType= "0201",
+            VisitNo= "00032006239161482",
+            SettlementNo= "00002006286416502",
+            PayType= "0203",
             };
             var data = new CancelOutpatientSettlementDataXmlDto()
             {  
                 MedicalInsurancePayTotalAmount=0,
-                TotalAmount= Convert.ToDecimal(2.50),
+                TotalAmount= Convert.ToDecimal(6.00),
                 AccountPay = 0,
             };
             var controlXml = XmlHelp.YinHaiXmlSerialize(control);
