@@ -797,7 +797,7 @@ namespace BenDingActive.Service
         /// </summary>
         /// <param name="param"></param>
         /// <returns></returns>
-        private ApiJsonResultData YiHaiMedicalInsuranceOperation(YiHaiMedicalInsuranceOperationParam param)
+        public ApiJsonResultData YiHaiMedicalInsuranceOperation(YiHaiMedicalInsuranceOperationParam param)
         {
             var resultData = new ApiJsonResultData { Success = true };
             var iniParam = new DealModel()
@@ -860,7 +860,7 @@ namespace BenDingActive.Service
 
         #region Test
         /// <summary>
-        /// 获取测试数据
+        /// 获取测试回参
         /// </summary>
         /// <returns></returns>
         private DealModel GetDealModelTest(YiHaiMedicalInsuranceOperationParam param)
