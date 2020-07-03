@@ -259,9 +259,11 @@ namespace BenDingForm
         private void button3_Click(object sender, EventArgs e)
         {
             var dataXml = OutpatientDepartmentDataXml();
-            var controlXml = new OutpatientDepartmentControlXmlDto();
+            string dataXmlstr = "<?xml version=\"1.0\" encoding=\"GBK\" standalone=\"yes\"?>";
+            dataXmlstr += "";
+              var controlXml = new OutpatientDepartmentControlXmlDto();
             controlXml.edition = "5.0";
-            controlXml.nums = 2;
+            controlXml.nums = 1;
             controlXml.TotalAmount = 6;
             //controlXml.VisitNo = "00032005299161201";
             controlXml.SettlementSign = 1;
@@ -545,6 +547,7 @@ namespace BenDingForm
         {
             var resultData = yinHaiService.Getuncertaintytrade("11","11", UserId);
             MessageBoxShow(resultData);
+          
 
         }
 

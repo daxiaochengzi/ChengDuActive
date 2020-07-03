@@ -65,6 +65,7 @@
     <Compile Include="HisBaseParam.cs" />
     <Compile Include="IObjectSafety.cs" />
     <Compile Include="MacActiveX.cs" />
+    <Compile Include="Model\BendParam\GetYinHaiBaseParam.cs" />
     <Compile Include="Model\BendParam\PrescriptionUploadParam.cs" />
     <Compile Include="Model\BendParam\ReadCardInfoParam.cs" />
     <Compile Include="Model\BendParam\ResidentUserInfoParam.cs" />

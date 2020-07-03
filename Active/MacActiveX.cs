@@ -1,11 +1,14 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.InteropServices;
 using BenDingActive.Help;
 using BenDingActive.Model;
-
+using BenDingActive.Model.BendParam;
+using BenDingActive.Model.Params.OutpatientDepartment;
+using BenDingActive.Service;
 using Newtonsoft.Json;
 
 
@@ -46,33 +49,51 @@ namespace BenDingActive
         /// <summary>
         /// 银海医保方法集合
         /// </summary>
-        /// <param name="controlParam"></param>
-        /// <param name="inputParam"></param>
-        /// <param name="methodName"></param>
-        /// <param name="operatorId"></param>
+        /// <param name="param"></param>
+        
         /// <returns></returns>
-        public string YinHaiMethods(string controlParam, string inputParam, string methodName, string operatorId)
+        public string YinHaiMethods(string param)
         {
-            //var sendService = new SendService();
-            //var iniParam = new YiHaiMethodsDto()
-            //{
-            //    ControlParam = controlParam,
-            //    InputParam = inputParam,
-            //    MethodName = methodName,
-            //    OperatorId = operatorId
-            //};
-            ////初始化文件数据
-            //var iniFile = new IniFile();
-            //iniFile.IniWriteValue("SendData", "Value","");
-            //iniFile.IniWriteValue("AcceptData", "Value", "");
-            //var iniJsonParam = JsonConvert.SerializeObject(iniParam);
-            ////StartUdpServer(operatorId);
-            //var resultData = sendService.SendData(iniJsonParam, operatorId);
+            var resultData=new ApiJsonResultData();
+            var  iniParam=  JsonConvert.DeserializeObject<GetYinHaiBaseParam>(param);
+            var yinHaiService = new YinHaiService();
+            if (iniParam != null)
+            {
+                switch (iniParam.SerialNumber)
+                {
+                    case "ConfirmDeal":
+                        resultData = yinHaiService.ConfirmDeal(iniParam.SerialNumber, iniParam.VerificationCode,
+                            iniParam.UserId);
+                        break;
+                    case "CancelDeal":
+                        resultData = yinHaiService.CancelDeal(iniParam.SerialNumber, iniParam.VerificationCode,
+                            iniParam.UserId);
+                        break;
+                    case "Getuncertaintytrade":
+                        resultData = yinHaiService.CancelDeal(iniParam.TransactionControlXml, iniParam.TransactionInputXml,
+                            iniParam.UserId);
+                        break;
+                    case "03":
+                        resultData = yinHaiService.GetUserInfo(iniParam.TransactionControlXml, iniParam.TransactionInputXml,
+                            iniParam.UserId);
+                        break;
+                    default:
+                         resultData = yinHaiService.YiHaiMedicalInsuranceOperation(new YiHaiMedicalInsuranceOperationParam
+                         {
+                             ControlParam =iniParam.TransactionControlXml,
+                             InputParam = iniParam.TransactionInputXml,
+                             OperatorId = iniParam.UserId,
+                             TransactionNumber = iniParam.TransactionNumber
+                         });
+                        break;
+
+                }
+            }
 
             ////反射获取 命名空间 + 类名
-            string className = "BenDingActive.Service.YinHaiService";
-            var resultData = YinHaiMedicalInsuranceExecute(controlParam, inputParam, methodName, operatorId, className);
-            return resultData;
+            //string className = "BenDingActive.Service.YinHaiService";
+            //var resultData = YinHaiMedicalInsuranceExecute(controlParam, inputParam, methodName, operatorId, className);
+            return JsonConvert.SerializeObject(resultData);
         }
         /// <summary>
         /// 启动Udp服务端
