@@ -703,13 +703,13 @@ namespace BenDingForm
             };
             var controlXml = XmlHelp.YinHaiXmlSerialize(control);
             string dataXml = XmlHelp.YinHaiXmlSerialize(data);
-            var resultData=  activeX.YinHaiMethods(controlXml, dataXml, "MedicalInsuranceSignIn", "123");
+            //var resultData=  activeX.YinHaiMethods(controlXml, dataXml, "MedicalInsuranceSignIn", "123");
         }
 
         private void button7_Click_1(object sender, EventArgs e)
         {
             var activeX = new MacActiveX();
-            var resultData = activeX.YinHaiMethods("GetSignInUserId", "GetSignInUserId", "GetSignInUserId", "123");
+            //var resultData = activeX.YinHaiMethods("GetSignInUserId", "GetSignInUserId", "GetSignInUserId", "123");
         }
 
         private void btn_Register_Click(object sender, EventArgs e)
@@ -717,10 +717,10 @@ namespace BenDingForm
             var activeX = new MacActiveX();
             var service = new YinHaiService();
             var testParam = service.GetTestParam("21");
-            var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml, 
-                                testParam.TransactionInputXml, 
-                                "HospitalizationRegister", 
-                                "123");
+            //var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml, 
+            //                    testParam.TransactionInputXml, 
+            //                    "HospitalizationRegister", 
+            //                    "123");
         }
 
         private void btn_Cancel_Click(object sender, EventArgs e)
@@ -728,10 +728,10 @@ namespace BenDingForm
             var activeX = new MacActiveX();
             var service = new YinHaiService();
             var testParam = service.GetTestParam("26");
-            var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml,
-                testParam.TransactionInputXml,
-                "CancelHospitalizationRegister",
-                "123");
+            //var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml,
+            //    testParam.TransactionInputXml,
+            //    "CancelHospitalizationRegister",
+            //    "123");
         }
 
         private void btn_model_Click(object sender, EventArgs e)
@@ -739,10 +739,10 @@ namespace BenDingForm
             var activeX = new MacActiveX();
             var service = new YinHaiService();
             var testParam = service.GetTestParam("23");
-            var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml,
-                testParam.TransactionInputXml,
-                "ModifyHospitalizationRegister",
-                "123");
+            //var resultData = activeX.YinHaiMethods(testParam.TransactionControlXml,
+            //    testParam.TransactionInputXml,
+            //    "ModifyHospitalizationRegister",
+            //    "123");
         }
     }
 

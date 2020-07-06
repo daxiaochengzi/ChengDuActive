@@ -77,6 +77,10 @@ namespace BenDingActive
                         resultData = yinHaiService.GetUserInfo(iniParam.TransactionControlXml, iniParam.TransactionInputXml,
                             iniParam.UserId);
                         break;
+                    case "05":
+                        resultData = yinHaiService.MedicalInsuranceSignIn(iniParam.TransactionControlXml, iniParam.TransactionInputXml,
+                            iniParam.UserId);
+                        break;
                     default:
                          resultData = yinHaiService.YiHaiMedicalInsuranceOperation(new YiHaiMedicalInsuranceOperationParam
                          {
