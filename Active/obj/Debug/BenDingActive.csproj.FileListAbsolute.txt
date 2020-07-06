@@ -93,4 +93,3 @@ C:\code\git\ChengDuActive\ChengDuActive\Active\obj\Debug\BenDingActive.csproj.Co
 C:\code\git\ChengDuActive\ChengDuActive\Active\obj\Debug\BenDingActive.csproj.CopyComplete
 C:\code\git\ChengDuActive\ChengDuActive\Active\obj\Debug\BenDingActive.dll
 C:\code\git\ChengDuActive\ChengDuActive\Active\obj\Debug\BenDingActive.pdb
-C:\git\ChengDuActive\Active\obj\Debug\BenDingActive.csprojAssemblyReference.cache
