@@ -789,7 +789,30 @@ namespace BenDingActive.Service
 
 
         }
+        /// <summary>
+        /// 出院结算
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData LeaveHospitalizationSettlement(string controlParam, string inputParam, string operatorId)
+        {
 
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "52",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+
+
+        }
         #endregion
 
         /// <summary>

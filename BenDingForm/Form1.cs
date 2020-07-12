@@ -754,6 +754,17 @@ namespace BenDingForm
             //    "ModifyHospitalizationRegister",
             //    "123");
         }
+
+        private void btnSettlement_Click(object sender, EventArgs e)
+        {
+            string controlXml = @"<?xml version='1.0' encoding='GBK' standalone='yes' ?> 
+           <control><akc190>00032006309161680</akc190><aac001>010025489</aac001><aka130>0309</aka130><yab003>0003</yab003><aae011>李茜</aae011><print>0</print></control>";
+
+            string dataXml = @"<?xml version='1.0' encoding='GBK' standalone='yes'?>
+               <data><yka055>3.60</yka055><nums>1</nums><yka110></yka110><aae011>李茜</aae011></data>";
+
+            var resultData = yinHaiService.LeaveHospitalizationSettlement(controlXml, dataXml, UserId);
+        }
     }
 
 

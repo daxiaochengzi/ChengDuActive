@@ -54,6 +54,7 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnSettlement = new System.Windows.Forms.Button();
             this.btn_model = new System.Windows.Forms.Button();
             this.btn_Cancel = new System.Windows.Forms.Button();
             this.btn_Register = new System.Windows.Forms.Button();
@@ -318,6 +319,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnSettlement);
             this.groupBox1.Controls.Add(this.btn_model);
             this.groupBox1.Controls.Add(this.btn_Cancel);
             this.groupBox1.Controls.Add(this.btn_Register);
@@ -327,6 +329,16 @@
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "住院";
+            // 
+            // btnSettlement
+            // 
+            this.btnSettlement.Location = new System.Drawing.Point(308, 20);
+            this.btnSettlement.Name = "btnSettlement";
+            this.btnSettlement.Size = new System.Drawing.Size(75, 23);
+            this.btnSettlement.TabIndex = 21;
+            this.btnSettlement.Text = "住院结算";
+            this.btnSettlement.UseVisualStyleBackColor = true;
+            this.btnSettlement.Click += new System.EventHandler(this.btnSettlement_Click);
             // 
             // btn_model
             // 
@@ -415,6 +427,7 @@
         private System.Windows.Forms.Button btn_Register;
         private System.Windows.Forms.Button btn_Cancel;
         private System.Windows.Forms.Button btn_model;
+        private System.Windows.Forms.Button btnSettlement;
     }
 }
 
