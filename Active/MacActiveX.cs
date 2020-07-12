@@ -17,7 +17,7 @@ namespace BenDingActive
     [Guid("67475F7D-57A1-45AD-96F3-428A679B2E6C")]
     public class MacActiveX : ActiveXControl
     {
-
+        YinHaiService yinHaiService = new YinHaiService();
         ///// <summary>
         //  /// 门诊方法集合
         //  /// </summary>
@@ -50,16 +50,18 @@ namespace BenDingActive
         /// 银海医保方法集合
         /// </summary>
         /// <param name="param"></param>
-        
+
         /// <returns></returns>
         public string YinHaiMethods(string param)
         {
-            var resultData=new ApiJsonResultData();
+            Logs.LogWriteData(new LogWriteDataParam()
+                {JoinJson = param });
+               var resultData=new ApiJsonResultData();
             var  iniParam=  JsonConvert.DeserializeObject<GetYinHaiBaseParam>(param);
-            var yinHaiService = new YinHaiService();
+           
             if (iniParam != null)
             {
-                switch (iniParam.SerialNumber)
+                switch (iniParam.TransactionNumber)
                 {
                     case "ConfirmDeal":
                         resultData = yinHaiService.ConfirmDeal(iniParam.SerialNumber, iniParam.VerificationCode,
@@ -70,7 +72,7 @@ namespace BenDingActive
                             iniParam.UserId);
                         break;
                     case "Getuncertaintytrade":
-                        resultData = yinHaiService.CancelDeal(iniParam.TransactionControlXml, iniParam.TransactionInputXml,
+                        resultData = yinHaiService.Getuncertaintytrade(iniParam.TransactionControlXml, iniParam.TransactionInputXml,
                             iniParam.UserId);
                         break;
                     case "03":

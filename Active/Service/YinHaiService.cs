@@ -832,14 +832,19 @@ namespace BenDingActive.Service
 
                 resultData.OtherInfo = iniParam.SerialNumber;
                 resultData.Data = JsonConvert.SerializeObject(iniParam);
-
-                Logs.LogWriteData(new LogWriteDataParam
+                //签到取消日志记录
+                if (param.TransactionNumber != "05")
                 {
-                    JoinJson = "",
-                    ReturnJson = resultData.Data.ToString(),
-                    OperatorId = param.OperatorId
+                    Logs.LogWriteData(new LogWriteDataParam
+                    {
+                        JoinJson = "",
+                        ReturnJson = resultData.Data.ToString(),
+                        OperatorId = param.OperatorId
 
-                });
+                    });
+                }
+
+               
             }
             catch (Exception e)
             {
