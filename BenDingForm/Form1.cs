@@ -579,8 +579,8 @@ namespace BenDingForm
             //                <dir>C:\Program Files (x86)\Microsoft\本鼎医保插件\xmlData</dir>
             //                </data>";
 
-            var xmlControl = "11C0000SJ37F6F585";
-            var xmlInput = "457840301";
+            var xmlControl = "21C0000SJ37F6F754";
+            var xmlInput = "";
             var resultData = yinHaiService.ConfirmDeal(xmlControl, xmlInput, UserId);
 
             MessageBoxShow(resultData);
