@@ -11,6 +11,7 @@ using Newtonsoft.Json;
 using System.Diagnostics;
 using BenDingActive;
 using BenDingActive.Help;
+using BenDingActive.Model.BendParam;
 using BenDingActive.Model.Json;
 using BenDingActive.Model.Params;
 using BenDingActive.Model.YiHai;
@@ -485,19 +486,28 @@ namespace BenDingForm
 
         private void button7_Click(object sender, EventArgs e)
         {
-            var control = new SignInControlXmlDto()
-            {
-                OperationName = "李茜"
-            };
-            var data = new SignInDataXmlDto()
-            {   //098041
-                MedicalInsuranceOrganization = "0022"
-            };
-            var controlXml = XmlHelp.YinHaiXmlSerialize(control);
-            string dataXml = XmlHelp.YinHaiXmlSerialize(data);
-            var resultData = yinHaiService.MedicalInsuranceSignIn(controlXml, dataXml, UserId);
-            MessageBoxShow(resultData);
 
+            var ccc = new GetYinHaiBaseParam()
+            {
+                TransactionControlXml = "<?xml version=\'1.0\' encoding=\'gb2312\' standalone=\'yes\'?>\r\n<control>\r\n  <aae011>李茜</aae011>\r\n</control>",
+                SerialNumber = "05",
+                TransactionInputXml = "<?xml version=\'1.0\' encoding=\'gb2312\' standalone=\'yes\'?>\r\n<data>\r\n  <yab003>0003</yab003>\r\n</data>"
+            };
+            string dd = "{'TransactionControlXml':'<?xml version=\'1.0\' encoding=\'gb2312\' standalone=\'yes\'?>\r\n<control>\r\n  <aae011>李茜</aae011>\r\n</control>','TransactionInputXml':'<?xml version=\'1.0\' encoding=\'gb2312\' standalone=\'yes\'?>\r\n<data>\r\n  <yab003>0003</yab003>\r\n</data>','TransactionNumber':'05','UserId':'E075AC49FCE443778F897CF839F3B924'}";
+            //var control = new SignInControlXmlDto()
+            //{
+            //    OperationName = "李茜"
+            //};
+            //var data = new SignInDataXmlDto()
+            //{   //098041
+            //    MedicalInsuranceOrganization = "0022"
+            //};
+            //var controlXml = XmlHelp.YinHaiXmlSerialize(control);
+            //string dataXml = XmlHelp.YinHaiXmlSerialize(data);
+            //var resultData = yinHaiService.MedicalInsuranceSignIn(controlXml, dataXml, UserId);
+            //MessageBoxShow(resultData);
+            var serviceData = new MacActiveX();
+            var resultData = serviceData.YinHaiMethods(JsonConvert.SerializeObject(ccc));
         }
 
         private void MessageBoxShow(ApiJsonResultData resultData)
@@ -569,8 +579,8 @@ namespace BenDingForm
             //                <dir>C:\Program Files (x86)\Microsoft\本鼎医保插件\xmlData</dir>
             //                </data>";
 
-            var xmlControl = "11C0000SJ37F6F585";
-            var xmlInput = "457840301";
+            var xmlControl = "21C0000SJ37F6F754";
+            var xmlInput = "";
             var resultData = yinHaiService.ConfirmDeal(xmlControl, xmlInput, UserId);
 
             MessageBoxShow(resultData);
