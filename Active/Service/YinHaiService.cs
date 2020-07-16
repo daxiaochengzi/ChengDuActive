@@ -814,7 +814,32 @@ namespace BenDingActive.Service
 
         }
         #endregion
+        /// <summary>
+        /// 特种病认定
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData OpSpecialCognizance(string controlParam, string inputParam, string operatorId)
+        {
 
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "120",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+
+
+        }
+       
+        
         /// <summary>
         /// 银海医保执行
         /// </summary>

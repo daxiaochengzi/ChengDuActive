@@ -37,5 +37,14 @@ namespace BenDingActive.Help
         {
             return BitConverter.ToInt64(Guid.Parse(param).ToByteArray(), 0).ToString();
         }
+        /// <summary>
+        /// 获取银海xml头
+        /// </summary>
+        /// <returns></returns>
+        public static string GetYinHaiXmlHead()
+        {
+            string resultData = "<?xml version=\"1.0\" encoding=\"GBK\" standalone=\"yes\" ?>";
+            return resultData;
+        }
     }
 }

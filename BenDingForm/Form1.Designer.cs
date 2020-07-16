@@ -58,6 +58,7 @@
             this.btn_model = new System.Windows.Forms.Button();
             this.btn_Cancel = new System.Windows.Forms.Button();
             this.btn_Register = new System.Windows.Forms.Button();
+            this.btnCognizance = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -319,6 +320,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnCognizance);
             this.groupBox1.Controls.Add(this.btnSettlement);
             this.groupBox1.Controls.Add(this.btn_model);
             this.groupBox1.Controls.Add(this.btn_Cancel);
@@ -329,6 +331,7 @@
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "住院";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // btnSettlement
             // 
@@ -369,6 +372,16 @@
             this.btn_Register.Text = "入院登记";
             this.btn_Register.UseVisualStyleBackColor = true;
             this.btn_Register.Click += new System.EventHandler(this.btn_Register_Click);
+            // 
+            // btnCognizance
+            // 
+            this.btnCognizance.Location = new System.Drawing.Point(417, 20);
+            this.btnCognizance.Name = "btnCognizance";
+            this.btnCognizance.Size = new System.Drawing.Size(75, 23);
+            this.btnCognizance.TabIndex = 22;
+            this.btnCognizance.Text = "特殊疾病认定";
+            this.btnCognizance.UseVisualStyleBackColor = true;
+            this.btnCognizance.Click += new System.EventHandler(this.btnCognizance_Click);
             // 
             // Form1
             // 
@@ -428,6 +441,7 @@
         private System.Windows.Forms.Button btn_Cancel;
         private System.Windows.Forms.Button btn_model;
         private System.Windows.Forms.Button btnSettlement;
+        private System.Windows.Forms.Button btnCognizance;
     }
 }
 

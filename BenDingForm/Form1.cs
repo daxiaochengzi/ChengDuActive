@@ -765,6 +765,22 @@ namespace BenDingForm
 
             var resultData = yinHaiService.LeaveHospitalizationSettlement(controlXml, dataXml, UserId);
         }
+
+        private void btnCognizance_Click(object sender, EventArgs e)
+        {
+            string controlXml = CommonHelp.GetYinHaiXmlHead();
+            controlXml += @"<control>
+                        <yab003>0022</yab003> //默认为0000
+                        </control>";
+
+            string dataXml = CommonHelp.GetYinHaiXmlHead()+ "<data></data>";
+            var resultData = yinHaiService.LeaveHospitalizationSettlement(controlXml, dataXml, UserId);
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 
 
