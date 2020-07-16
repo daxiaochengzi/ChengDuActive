@@ -494,20 +494,20 @@ namespace BenDingForm
                 TransactionInputXml = "<?xml version=\'1.0\' encoding=\'gb2312\' standalone=\'yes\'?>\r\n<data>\r\n  <yab003>0003</yab003>\r\n</data>"
             };
             string dd = "{'TransactionControlXml':'<?xml version=\'1.0\' encoding=\'gb2312\' standalone=\'yes\'?>\r\n<control>\r\n  <aae011>李茜</aae011>\r\n</control>','TransactionInputXml':'<?xml version=\'1.0\' encoding=\'gb2312\' standalone=\'yes\'?>\r\n<data>\r\n  <yab003>0003</yab003>\r\n</data>','TransactionNumber':'05','UserId':'E075AC49FCE443778F897CF839F3B924'}";
-            //var control = new SignInControlXmlDto()
-            //{
-            //    OperationName = "李茜"
-            //};
-            //var data = new SignInDataXmlDto()
-            //{   //098041
-            //    MedicalInsuranceOrganization = "0022"
-            //};
-            //var controlXml = XmlHelp.YinHaiXmlSerialize(control);
-            //string dataXml = XmlHelp.YinHaiXmlSerialize(data);
-            //var resultData = yinHaiService.MedicalInsuranceSignIn(controlXml, dataXml, UserId);
-            //MessageBoxShow(resultData);
-            var serviceData = new MacActiveX();
-            var resultData = serviceData.YinHaiMethods(JsonConvert.SerializeObject(ccc));
+            var control = new SignInControlXmlDto()
+            {
+                OperationName = "李茜"
+            };
+            var data = new SignInDataXmlDto()
+            {   //098041
+                MedicalInsuranceOrganization = "0022"
+            };
+            var controlXml = XmlHelp.YinHaiXmlSerialize(control);
+            string dataXml = XmlHelp.YinHaiXmlSerialize(data);
+            var resultData = yinHaiService.MedicalInsuranceSignIn(controlXml, dataXml, UserId);
+            MessageBoxShow(resultData);
+            //var serviceData = new MacActiveX();
+            //var resultData = serviceData.YinHaiMethods(JsonConvert.SerializeObject(ccc));
         }
 
         private void MessageBoxShow(ApiJsonResultData resultData)
@@ -579,8 +579,8 @@ namespace BenDingForm
             //                <dir>C:\Program Files (x86)\Microsoft\本鼎医保插件\xmlData</dir>
             //                </data>";
 
-            var xmlControl = "21C0000SJ37F6F754";
-            var xmlInput = "";
+            var xmlControl = "53C0003SJ37F70677";
+            var xmlInput = "263040088";
             var resultData = yinHaiService.ConfirmDeal(xmlControl, xmlInput, UserId);
 
             MessageBoxShow(resultData);

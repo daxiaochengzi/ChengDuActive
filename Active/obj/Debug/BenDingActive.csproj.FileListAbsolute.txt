@@ -88,7 +88,6 @@ C:\code\git\ChengDuActive\ChengDuActive\Active\bin\Debug\BenDingActive.dll
 C:\code\git\ChengDuActive\ChengDuActive\Active\bin\Debug\BenDingActive.pdb
 C:\code\git\ChengDuActive\ChengDuActive\Active\bin\Debug\Newtonsoft.Json.dll
 C:\code\git\ChengDuActive\ChengDuActive\Active\bin\Debug\Newtonsoft.Json.xml
-C:\code\git\ChengDuActive\ChengDuActive\Active\obj\Debug\BenDingActive.csprojAssemblyReference.cache
 C:\code\git\ChengDuActive\ChengDuActive\Active\obj\Debug\BenDingActive.csproj.CoreCompileInputs.cache
 C:\code\git\ChengDuActive\ChengDuActive\Active\obj\Debug\BenDingActive.csproj.CopyComplete
 C:\code\git\ChengDuActive\ChengDuActive\Active\obj\Debug\BenDingActive.dll
