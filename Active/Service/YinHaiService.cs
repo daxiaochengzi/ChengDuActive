@@ -683,7 +683,6 @@ namespace BenDingActive.Service
             var resultData = YiHaiMedicalInsuranceOperation(iniParam);
             return resultData;
         }
-
         #endregion
 
         #region 住院
@@ -813,6 +812,32 @@ namespace BenDingActive.Service
 
 
         }
+        /// <summary>
+        /// 取消住院明细上传
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData CancelUploadHospitalizationDetail(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "43",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+
+
+        }
+        
+
         #endregion
         /// <summary>
         /// 特种病认定
@@ -838,8 +863,57 @@ namespace BenDingActive.Service
 
 
         }
-       
-        
+        /// <summary>
+        /// 特种病认定
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData QueryOpSpecialCognizance(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "122",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+
+
+        }
+
+        /// <summary>
+        /// 门特申请查询
+        /// </summary>
+        /// <param name="controlParam"></param>
+        /// <param name="inputParam"></param>
+        /// <param name="operatorId"></param>
+        /// <returns></returns>
+        public ApiJsonResultData QuerySpecialDiseases(string controlParam, string inputParam, string operatorId)
+        {
+
+            var iniParam = new YiHaiMedicalInsuranceOperationParam
+            {
+
+                TransactionNumber = "16",
+                ControlParam = controlParam,
+                OperatorId = operatorId,
+                InputParam = inputParam,
+            };
+            var resultData = YiHaiMedicalInsuranceOperation(iniParam);
+            return resultData;
+
+
+
+        }
+
+
         /// <summary>
         /// 银海医保执行
         /// </summary>

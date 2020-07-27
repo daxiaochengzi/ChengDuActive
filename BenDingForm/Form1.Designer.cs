@@ -54,11 +54,14 @@
             this.button7 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnCancelUpload = new System.Windows.Forms.Button();
+            this.btnCognizance = new System.Windows.Forms.Button();
             this.btnSettlement = new System.Windows.Forms.Button();
             this.btn_model = new System.Windows.Forms.Button();
             this.btn_Cancel = new System.Windows.Forms.Button();
             this.btn_Register = new System.Windows.Forms.Button();
-            this.btnCognizance = new System.Windows.Forms.Button();
+            this.btnQuerySpecialDiseases = new System.Windows.Forms.Button();
+            this.btnQueryCognizance = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -320,6 +323,9 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnQueryCognizance);
+            this.groupBox1.Controls.Add(this.btnQuerySpecialDiseases);
+            this.groupBox1.Controls.Add(this.btnCancelUpload);
             this.groupBox1.Controls.Add(this.btnCognizance);
             this.groupBox1.Controls.Add(this.btnSettlement);
             this.groupBox1.Controls.Add(this.btn_model);
@@ -332,6 +338,27 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "住院";
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // btnCancelUpload
+            // 
+            this.btnCancelUpload.Location = new System.Drawing.Point(6, 49);
+            this.btnCancelUpload.Name = "btnCancelUpload";
+            this.btnCancelUpload.Size = new System.Drawing.Size(106, 23);
+            this.btnCancelUpload.TabIndex = 23;
+            this.btnCancelUpload.Text = "取消明细上传";
+            this.btnCancelUpload.UseVisualStyleBackColor = true;
+            this.btnCancelUpload.Click += new System.EventHandler(this.btnCancelUpload_Click);
+            // 
+            // btnCognizance
+            // 
+            this.btnCognizance.Location = new System.Drawing.Point(417, 20);
+            this.btnCognizance.Name = "btnCognizance";
+            this.btnCognizance.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.btnCognizance.Size = new System.Drawing.Size(75, 23);
+            this.btnCognizance.TabIndex = 22;
+            this.btnCognizance.Text = "特殊疾病认定";
+            this.btnCognizance.UseVisualStyleBackColor = true;
+            this.btnCognizance.Click += new System.EventHandler(this.btnCognizance_Click);
             // 
             // btnSettlement
             // 
@@ -373,21 +400,31 @@
             this.btn_Register.UseVisualStyleBackColor = true;
             this.btn_Register.Click += new System.EventHandler(this.btn_Register_Click);
             // 
-            // btnCognizance
+            // btnQuerySpecialDiseases
             // 
-            this.btnCognizance.Location = new System.Drawing.Point(417, 20);
-            this.btnCognizance.Name = "btnCognizance";
-            this.btnCognizance.Size = new System.Drawing.Size(75, 23);
-            this.btnCognizance.TabIndex = 22;
-            this.btnCognizance.Text = "特殊疾病认定";
-            this.btnCognizance.UseVisualStyleBackColor = true;
-            this.btnCognizance.Click += new System.EventHandler(this.btnCognizance_Click);
+            this.btnQuerySpecialDiseases.Location = new System.Drawing.Point(118, 49);
+            this.btnQuerySpecialDiseases.Name = "btnQuerySpecialDiseases";
+            this.btnQuerySpecialDiseases.Size = new System.Drawing.Size(75, 23);
+            this.btnQuerySpecialDiseases.TabIndex = 24;
+            this.btnQuerySpecialDiseases.Text = "门特申请查询";
+            this.btnQuerySpecialDiseases.UseVisualStyleBackColor = true;
+            this.btnQuerySpecialDiseases.Click += new System.EventHandler(this.btnQuerySpecialDiseases_Click);
+            // 
+            // btnQueryCognizance
+            // 
+            this.btnQueryCognizance.Location = new System.Drawing.Point(509, 20);
+            this.btnQueryCognizance.Name = "btnQueryCognizance";
+            this.btnQueryCognizance.Size = new System.Drawing.Size(75, 23);
+            this.btnQueryCognizance.TabIndex = 25;
+            this.btnQueryCognizance.Text = "认定查询";
+            this.btnQueryCognizance.UseVisualStyleBackColor = true;
+            this.btnQueryCognizance.Click += new System.EventHandler(this.btnQueryCognizance_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1081, 456);
+            this.ClientSize = new System.Drawing.Size(814, 456);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.btn_datacode);
@@ -442,6 +479,9 @@
         private System.Windows.Forms.Button btn_model;
         private System.Windows.Forms.Button btnSettlement;
         private System.Windows.Forms.Button btnCognizance;
+        private System.Windows.Forms.Button btnCancelUpload;
+        private System.Windows.Forms.Button btnQuerySpecialDiseases;
+        private System.Windows.Forms.Button btnQueryCognizance;
     }
 }
 

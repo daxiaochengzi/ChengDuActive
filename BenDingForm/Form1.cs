@@ -26,7 +26,7 @@ namespace BenDingForm
         YinHaiService yinHaiService = new YinHaiService();
         OutpatientDepartmentService _residentd = new OutpatientDepartmentService();
         public string UserId = "E075AC49FCE443778F897CF839F3B924";
-        public string medicalInsuranceOrganization = "0022";
+        public string medicalInsuranceOrganization = "0003";
 
         public string DetailId = CommonHelp.GuidToStr(Guid.NewGuid().ToString());
         public string DetailTwo = CommonHelp.GuidToStr(Guid.NewGuid().ToString());
@@ -499,8 +499,8 @@ namespace BenDingForm
                 OperationName = "李茜"
             };
             var data = new SignInDataXmlDto()
-            {   //098041
-                MedicalInsuranceOrganization = "0022"
+            {   //0003
+                MedicalInsuranceOrganization = "0003"
             };
             var controlXml = XmlHelp.YinHaiXmlSerialize(control);
             string dataXml = XmlHelp.YinHaiXmlSerialize(data);
@@ -527,7 +527,7 @@ namespace BenDingForm
         {
             string xmlControl = @"<?xml version='1.0' encoding='GBK' standalone='yes'?>
                 <control>
-                   <yab003>0022</yab003>
+                   <yab003>0003</yab003>
                 </control>";
 
             string xmlInput = @"<?xml version='1.0' encoding='GBK' standalone='yes'?>
@@ -542,7 +542,7 @@ namespace BenDingForm
         {
             //string xmlControl = @"<?xml version='1.0' encoding='GBK' standalone='yes'?>
             //    <control>
-            //       <yab003>0022</yab003>
+            //       <yab003>0003</yab003>
             //    </control>";
 
             //string xmlInput = @"<?xml version='1.0' encoding='GBK' standalone='yes'?>
@@ -563,7 +563,7 @@ namespace BenDingForm
 
         private void button12_Click(object sender, EventArgs e)
         {
-            var resultData = yinHaiService.CancelDeal(null, "11C0000SJ37F6E441", UserId);
+            var resultData = yinHaiService.CancelDeal(null, "120C0000SJ37F70E09", UserId);
             MessageBoxShow(resultData);
         }
 
@@ -571,7 +571,7 @@ namespace BenDingForm
         {
             //string xmlControl = @"<?xml version='1.0' encoding='GBK' standalone='yes'?>
             //    <control>
-            //       <yab003>0022</yab003>
+            //       <yab003>0003</yab003>
             //    </control>";
 
             //string xmlInput = @"<?xml version='1.0' encoding='GBK' standalone='yes'?>
@@ -579,8 +579,8 @@ namespace BenDingForm
             //                <dir>C:\Program Files (x86)\Microsoft\本鼎医保插件\xmlData</dir>
             //                </data>";
 
-            var xmlControl = "53C0003SJ37F70677";
-            var xmlInput = "263040088";
+            var xmlControl = "20C0003SJ37F70D8F";
+            var xmlInput = "860324518";
             var resultData = yinHaiService.ConfirmDeal(xmlControl, xmlInput, UserId);
 
             MessageBoxShow(resultData);
@@ -618,7 +618,7 @@ namespace BenDingForm
                <cxlx>3</cxlx>
                <aae030>1900-05-25 08:53:52</aae030>
                <aae031>2020-06-25 08:53:52</aae031>
-               <yab003>0022</yab003>  --固定值0000
+               <yab003>0003</yab003>  --固定值0000
             </control>";
          
             string dataXml = @"<?xml version='1.0' encoding='GBK' standalone='yes'?>
@@ -634,7 +634,7 @@ namespace BenDingForm
         {
             string controlXml = @"<?xml version='1.0' encoding='GBK' standalone='yes' ?> 
             <control>
-             <yab003>0022</yab003>
+             <yab003>0003</yab003>
                <yae036></yae036>
             </control>";
 
@@ -652,7 +652,7 @@ namespace BenDingForm
 
             string controlXml = @"<?xml version='1.0' encoding='GBK' standalone='yes' ?> 
             <control>
-             <yab003>0022</yab003>
+             <yab003>0003</yab003>
              
             </control>";
 
@@ -709,7 +709,7 @@ namespace BenDingForm
             };
             var data = new SignInDataXmlDto()
             {   //098041
-                MedicalInsuranceOrganization = "0022"
+                MedicalInsuranceOrganization = "0003"
             };
             var controlXml = XmlHelp.YinHaiXmlSerialize(control);
             string dataXml = XmlHelp.YinHaiXmlSerialize(data);
@@ -770,16 +770,63 @@ namespace BenDingForm
         {
             string controlXml = CommonHelp.GetYinHaiXmlHead();
             controlXml += @"<control>
-                        <yab003>0022</yab003> //默认为0000
+                        <yab003>0003</yab003> 
                         </control>";
 
             string dataXml = CommonHelp.GetYinHaiXmlHead()+ "<data></data>";
-            var resultData = yinHaiService.LeaveHospitalizationSettlement(controlXml, dataXml, UserId);
+            var resultData = yinHaiService.OpSpecialCognizance(controlXml, dataXml, UserId);
         }
 
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCancelUpload_Click(object sender, EventArgs e)
+        {
+            string controlXml = CommonHelp.GetYinHaiXmlHead();
+            controlXml += @"<control> 
+                             <akc190>00032007249161869</akc190>
+                           <aac001>010025489</aac001>
+                           <aka130>0204</aka130>
+                           <yab003>0003</yab003>
+</control> ";
+
+            string dataXml = CommonHelp.GetYinHaiXmlHead() + 
+                             "<data><row yka105='5595364812663565850'/></data>";
+            var resultData = yinHaiService.CancelUploadHospitalizationDetail(controlXml, dataXml, UserId);
+        }
+
+        private void btnQuerySpecialDiseases_Click(object sender, EventArgs e)
+        {//
+            string controlXml = CommonHelp.GetYinHaiXmlHead();
+            controlXml += @"<control> 
+            <ykc112>100000010516129</ykc112>
+            <aka130>0204</aka130>
+            <cxlx>1</cxlx>
+                                     
+                                       <aac001>010025489</aac001>
+
+                                       <yab003>0003</yab003>
+</control> ";
+
+            string dataXml = CommonHelp.GetYinHaiXmlHead() +
+                             "<data></data>";
+            var resultData = yinHaiService.QuerySpecialDiseases(controlXml, dataXml, UserId);
+        }
+
+        private void btnQueryCognizance_Click(object sender, EventArgs e)
+        {
+
+            string controlXml = CommonHelp.GetYinHaiXmlHead();
+            controlXml += @"<control> 
+            <yab003>0003</yab003> //默认为0000
+              <aac001>010025489</aac001>
+                 </control> ";
+
+            string dataXml = CommonHelp.GetYinHaiXmlHead() +
+                             "<data></data>";
+            var resultData = yinHaiService.QueryOpSpecialCognizance(controlXml, dataXml, UserId);
         }
     }
 
