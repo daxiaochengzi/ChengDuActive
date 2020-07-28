@@ -32,35 +32,35 @@ namespace BenDingActive
             IPEndPoint locatePoint = new IPEndPoint(locateIp, locatePort);
             try
             {
-                udpClient = new UdpClient(locatePoint);
+                //udpClient = new UdpClient(locatePoint);
 
-                //监听创建好后，创建一个线程，开始接收信息
-                Task.Run(() =>
-                {
-                    while (true)
-                    {
-                        //var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-                        //var ipPoint = new IPEndPoint(IPAddress.Parse(ipAdrr), 2012);
-                        //socket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);  //SocketOptionName.ReuseAddress是关键
-                        //socket.Bind(ipPoint);
+                ////监听创建好后，创建一个线程，开始接收信息
+                //Task.Run(() =>
+                //{
+                //    while (true)
+                //    {
+                //        //var socket = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
+                //        //var ipPoint = new IPEndPoint(IPAddress.Parse(ipAdrr), 2012);
+                //        //socket.SetSocketOption(SocketOptionLevel.Socket, SocketOptionName.ReuseAddress, true);  //SocketOptionName.ReuseAddress是关键
+                //        //socket.Bind(ipPoint);
 
 
-                        UdpStateEventArgs udpReceiveState = new UdpStateEventArgs();
+                //        UdpStateEventArgs udpReceiveState = new UdpStateEventArgs();
 
-                        if (udpClient != null)
-                        {
-                            IPEndPoint remotePoint = new IPEndPoint(IPAddress.Parse(remoteIp), remotePort);
-                            var received = udpClient.Receive(ref remotePoint);
-                            udpReceiveState.remoteEndPoint = remotePoint;
-                            udpReceiveState.buffer = received;
-                            UDPMessageReceived?.Invoke(udpReceiveState);
-                        }
-                        else
-                        {
-                            break;
-                        }
-                    }
-                });
+                //        if (udpClient != null)
+                //        {
+                //            IPEndPoint remotePoint = new IPEndPoint(IPAddress.Parse(remoteIp), remotePort);
+                //            var received = udpClient.Receive(ref remotePoint);
+                //            udpReceiveState.remoteEndPoint = remotePoint;
+                //            udpReceiveState.buffer = received;
+                //            UDPMessageReceived?.Invoke(udpReceiveState);
+                //        }
+                //        else
+                //        {
+                //            break;
+                //        }
+                //    }
+                //});
             }
             catch (Exception e)
             {
