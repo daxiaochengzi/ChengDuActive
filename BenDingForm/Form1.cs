@@ -405,19 +405,62 @@ namespace BenDingForm
                     </data>";
 
             string inputXmLStrs = @"<?xml version='1.0' encoding='gb2312' standalone='yes'?>
-                    <data>
-                    <datasetcw>
-                        <row>
-                          <yke410>0</yke410>
-                          <yke411>3</yke411>
-                          <yke414>02010000</yke414>
-                          <yke506>4625897907689607045</yke506>
-                          <yke412>内科病区</yke412>
-                          <yke413>008</yke413>
-                          <aae011>李茜</aae011>
-                          <aae036>2020-05-25 08:53:52</aae036>
-                        </row>
-                      </datasetcw></data>";
+                   <data>  
+    <datasetcw>    
+        <row>      
+            <yke410>0</yke410>      
+            <yke411>3</yke411>      
+            <yke414>01020000</yke414>      
+            <yke506>4941170686810031623</yke506>      
+            <yke412>住院部</yke412>      
+            <yke413>02床</yke413>      
+            <aae011>杨平</aae011>      
+            <aae036>2020-07-28 15:22:29</aae036>    
+        </row>  
+    </datasetcw>  
+    <datasetks>    
+        <row>      
+            <yke414>01030000</yke414>      
+            <yke506>5065139391958218807</yke506>      
+            <yke415>门诊部</yke415>
+            <yke416>杨平</yke416>           
+            <yke417>3</yke417> 
+            <aae011>杨平</aae011>      
+            <aae036>2020-07-28 15:22:29</aae036>       
+        </row>    
+        <row>      
+            <yke414>02010000</yke414>      
+            <yke506>5235452162078700739</yke506>      
+            <yke415>化验科</yke415>
+           <yke416>杨平</yke416>            
+            <yke417>3</yke417> 
+             <aae011>杨平</aae011>      
+            <aae036>2020-07-28 15:22:29</aae036>       
+        </row>  
+    </datasetks>  
+    <datasetyzry>    
+        <row>      
+            <yke418>01</yke418>      
+            <yke419>4928251049461197215</yke419>      
+            <aac003>杨平</aac003>      
+            <aac002>513701199002124815</aac002>      
+            <aac004>1</aac004>      
+            <yke420>101</yke420>      
+            <yke421>77777</yke421>      
+            <yke422>777777</yke422>      
+            <yke423>1</yke423>      
+            <akc023>3</akc023>      
+            <yke424>234</yke424>      
+            <yke425>2</yke425>      
+            <yke414>01030000</yke414>      
+            <yke431>2010-05-06 00:00:00</yke431>
+            <yke432>四川</yke432>    
+            <aae011>杨平</aae011>      
+            <aae036>2020-07-28 15:22:29</aae036>    
+        </row>    
+       
+    </datasetyzry>
+</data>";
             var controlDataXml = new ControlXmlBaseDto()
             {
                 MedicalInsuranceHandleNo = "0003"

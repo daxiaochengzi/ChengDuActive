@@ -152,3 +152,4 @@ C:\code\git\ChengDuActive\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.csproj
 C:\code\git\ChengDuActive\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.csproj.CopyComplete
 C:\code\git\ChengDuActive\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.exe
 C:\code\git\ChengDuActive\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.pdb
+C:\code\git\ChengDuActive\ChengDuActive\BenDingForm\obj\Debug\BenDingForm.Form2.resources

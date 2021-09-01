@@ -94,6 +94,7 @@
     <Compile Include="Model\Dto\YiHai\UserInfoDataXmlDto.cs" />
     <Compile Include="Model\Dto\YiHai\YiHaiMethodsDto.cs" />
     <Compile Include="Model\Dto\YiHai\YiHaiResultData.cs" />
+    <Compile Include="Model\Dto\YiHai\YinHaiNewService.cs" />
     <Compile Include="Model\Json\GetUserInfoJsonDto.cs" />
     <Compile Include="Model\Params\Basiclevel\Dto\MedicalInsuranceResidentInfoBasiclevelDto.cs" />
     <Compile Include="Model\Params\Basiclevel\Dto\OutpatientDetailQueryBasiclevelDto.cs" />
@@ -137,6 +138,7 @@
     <Compile Include="UDPClient.cs" />
     <Compile Include="YinHaiMethodsDto.cs" />
     <Compile Include="YinHaiCOM.cs" />
+    <Compile Include="YinHaiNewCOM.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
